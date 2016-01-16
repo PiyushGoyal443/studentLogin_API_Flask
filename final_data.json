@@ -1,0 +1,1000 @@
+{
+   "academic_history":{
+      "grade summary":{
+         "A grades":"10",
+         "B grades":"6",
+         "C grades":"0",
+         "D grades":"1",
+         "E grades":"0",
+         "F grades":"0",
+         "N grades":"0",
+         "S grades":"3"
+      },
+      "history 1":{
+         "CHY101":{
+            "course_title":"Engineering Chemistry",
+            "course_type":"TheoryLab",
+            "credit":"4",
+            "grade":"A"
+         },
+         "CHY104":{
+            "course_title":"Environmental Studies",
+            "course_type":"Theory",
+            "credit":"3",
+            "grade":"A"
+         },
+         "CSE101":{
+            "course_title":"Computer Programming and Problem Solving",
+            "course_type":"TheoryLab",
+            "credit":"3",
+            "grade":"B"
+         },
+         "CSE109":{
+            "course_title":"Digital Logic",
+            "course_type":"TheoryLab",
+            "credit":"4",
+            "grade":"A"
+         },
+         "CSE205_20":{
+            "course_title":"Computer Architecture and Organization",
+            "course_type":"Theory",
+            "credit":"4",
+            "grade":"B"
+         },
+         "CSE219":{
+            "course_title":"Object Oriented Paradigm and Programming",
+            "course_type":"TheoryLab",
+            "credit":"5",
+            "grade":"A"
+         },
+         "CSE220":{
+            "course_title":"Data Structures and Algorithms",
+            "course_type":"TheoryLab",
+            "credit":"5",
+            "grade":"S"
+         },
+         "EEE101":{
+            "course_title":"Basic Electrical and Electronics Engineering",
+            "course_type":"TheoryLab",
+            "credit":"4",
+            "grade":"B"
+         },
+         "EEE103":{
+            "course_title":"Electronics",
+            "course_type":"TheoryLab",
+            "credit":"4",
+            "grade":"A"
+         },
+         "ENG101_20":{
+            "course_title":"English for Engineers - I",
+            "course_type":"TheoryLab",
+            "credit":"3",
+            "grade":"D"
+         },
+         "ENG102_20":{
+            "course_title":"English for Engineers - II",
+            "course_type":"TheoryLab",
+            "credit":"3",
+            "grade":"B"
+         },
+         "ESP101":{
+            "course_title":"Basic Spanish",
+            "course_type":"Theory",
+            "credit":"2",
+            "grade":"B"
+         },
+         "MAT106":{
+            "course_title":"Discrete Mathematical Structures",
+            "course_type":"Theory",
+            "credit":"4",
+            "grade":"A"
+         },
+         "MAT114":{
+            "course_title":"Multivariable Calculus and Differential Equations",
+            "course_type":"TheoryLab",
+            "credit":"4",
+            "grade":"A"
+         },
+         "MAT115":{
+            "course_title":"Differential and Difference Equations",
+            "course_type":"TheoryLab",
+            "credit":"4",
+            "grade":"S"
+         },
+         "MAT203":{
+            "course_title":"Numerical Analysis",
+            "course_type":"Theory",
+            "credit":"3",
+            "grade":"A"
+         },
+         "MEE101":{
+            "course_title":"Engineering Graphics",
+            "course_type":"Lab",
+            "credit":"2",
+            "grade":"S"
+         },
+         "MEE102":{
+            "course_title":"Workshop Practice",
+            "course_type":"Lab",
+            "credit":"1",
+            "grade":"A"
+         },
+         "PHY101":{
+            "course_title":"Modern Physics",
+            "course_type":"TheoryLab",
+            "credit":"4",
+            "grade":"B"
+         },
+         "STS201":{
+            "course_title":"Soft Skills",
+            "course_type":"SS",
+            "credit":"1",
+            "grade":"A"
+         }
+      },
+      "history 2":{
+         "cgpa":"  8.73",
+         "credits earned":"67",
+         "credits registered":"67",
+         "rank":"173 out of 742"
+      },
+      "status":"Success"
+   },
+   "campus":"vellore",
+   "courses":[
+      {
+         "attendance":{
+            "attendance_percentage":"67%",
+            "attended_classes":"4",
+            "details":[
+               {
+                  "class_units":"1",
+                  "date":"04-Jan-2016",
+                  "reason":" - ",
+                  "slot":"E1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"06-Jan-2016",
+                  "reason":" - ",
+                  "slot":"E1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"07-Jan-2016",
+                  "reason":" - ",
+                  "slot":"TE1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"0",
+                  "date":"08-Jan-2016",
+                  "reason":" - ",
+                  "slot":"E1",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"1",
+                  "date":"11-Jan-2016",
+                  "reason":" - ",
+                  "slot":"E1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"0",
+                  "date":"13-Jan-2016",
+                  "reason":" - ",
+                  "slot":"E1",
+                  "status":"Absent"
+               }
+            ],
+            "registration_date":"30/12/2015 14:54:05",
+            "total_classes":"6"
+         },
+         "class_number":"1395",
+         "course_code":"MAT207",
+         "course_mode":"CBL",
+         "course_option":"Regular",
+         "course_title":"Applied Probability, Statistics and Reliability",
+         "course_type":"Theory Only",
+         "faculty":"PALANIVEL K - SAS",
+         "ltpjc":"3 1 0 0 4 ",
+         "marks":{
+            "assessments":[
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-I",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-II",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-I",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-II",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-III",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Assignment",
+                  "weightage":5
+               }
+            ],
+            "max_marks":220,
+            "max_percentage":100,
+            "scored_marks":0.0,
+            "scored_percentage":0.0
+         },
+         "registration_status":"Registered and Approved",
+         "slot":"E1+TE1",
+         "venue":"SJT403"
+      },
+      {
+         "attendance":{
+            "attendance_percentage":"84%",
+            "attended_classes":"5",
+            "details":[
+               {
+                  "class_units":"1",
+                  "date":"04-Jan-2016",
+                  "reason":" - ",
+                  "slot":"TD1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"0",
+                  "date":"05-Jan-2016",
+                  "reason":" - ",
+                  "slot":"D1",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"1",
+                  "date":"07-Jan-2016",
+                  "reason":" - ",
+                  "slot":"D1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"08-Jan-2016",
+                  "reason":" - ",
+                  "slot":"D1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"11-Jan-2016",
+                  "reason":" - ",
+                  "slot":"TD1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"12-Jan-2016",
+                  "reason":" - ",
+                  "slot":"D1",
+                  "status":"Present"
+               }
+            ],
+            "registration_date":"30/12/2015 14:52:19",
+            "total_classes":"6"
+         },
+         "class_number":"1384",
+         "course_code":"MAT202",
+         "course_mode":"CBL",
+         "course_option":"Regular",
+         "course_title":"Linear Algebra",
+         "course_type":"Theory Only",
+         "faculty":"RAJASEKARAN G - SAS",
+         "ltpjc":"3 1 0 0 4 ",
+         "marks":{
+            "assessments":[
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-I",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-II",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-I",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-II",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-III",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Assignment",
+                  "weightage":5
+               }
+            ],
+            "max_marks":220,
+            "max_percentage":100,
+            "scored_marks":0.0,
+            "scored_percentage":0.0
+         },
+         "registration_status":"Registered and Approved",
+         "slot":"D1+TD1",
+         "venue":"SJT221"
+      },
+      {
+         "attendance":{
+            "attendance_percentage":"67%",
+            "attended_classes":"2",
+            "details":[
+               {
+                  "class_units":"0",
+                  "date":"08-Jan-2016",
+                  "reason":" - ",
+                  "slot":"E2",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"1",
+                  "date":"11-Jan-2016",
+                  "reason":" - ",
+                  "slot":"E2",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"13-Jan-2016",
+                  "reason":" - ",
+                  "slot":"E2",
+                  "status":"Present"
+               }
+            ],
+            "registration_date":"07/01/2016 10:47:49",
+            "total_classes":"3"
+         },
+         "class_number":"4749",
+         "course_code":"CSE208",
+         "course_mode":"CBL",
+         "course_option":"Regular",
+         "course_title":"Theory of Computation",
+         "course_type":"Theory Only",
+         "faculty":"LAKSHMANAN K - SCSE",
+         "ltpjc":"3 1 0 0 4 ",
+         "marks":{
+            "assessments":[
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-I",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-II",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-I",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-II",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-III",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Assignment",
+                  "weightage":5
+               }
+            ],
+            "max_marks":220,
+            "max_percentage":100,
+            "scored_marks":0.0,
+            "scored_percentage":0.0
+         },
+         "registration_status":"Registered and Approved",
+         "slot":"E2+TE2",
+         "venue":"SJT409"
+      },
+      {
+         "attendance":{
+            "attendance_percentage":"0%",
+            "attended_classes":"0",
+            "details":{
+
+            },
+            "registration_date":"09/01/2016 10:32:38",
+            "total_classes":"0"
+         },
+         "class_number":"5471",
+         "course_code":"CSE221",
+         "course_mode":"LBC",
+         "course_option":"Regular",
+         "course_title":"Microprocessor and Interfacing",
+         "course_type":"Embedded Lab",
+         "faculty":"JIMMY MATHEW - SCSE",
+         "ltpjc":"0 0 2 0 1 ",
+         "marks":{
+            "assessments":[
+               {
+                  "conducted_on":"Tentative, set by lab faculty",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Lab_cam",
+                  "weightage":50
+               }
+            ],
+            "max_marks":100,
+            "max_percentage":100,
+            "scored_marks":0.0,
+            "scored_percentage":0.0
+         },
+         "slot":"L57+L58",
+         "venue":"SJT416"
+      },
+      {
+         "attendance":{
+            "attendance_percentage":"100%",
+            "attended_classes":"3",
+            "details":[
+               {
+                  "class_units":"1",
+                  "date":"11-Jan-2016",
+                  "reason":" - ",
+                  "slot":"A1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"12-Jan-2016",
+                  "reason":" - ",
+                  "slot":"TA1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"14-Jan-2016",
+                  "reason":" - ",
+                  "slot":"A1",
+                  "status":"Present"
+               }
+            ],
+            "registration_date":"09/01/2016 10:26:53",
+            "total_classes":"3"
+         },
+         "class_number":"4065",
+         "course_code":"CSE221",
+         "course_mode":"CBL",
+         "course_option":"Regular",
+         "course_title":"Microprocessor and Interfacing",
+         "course_type":"Embedded Theory",
+         "faculty":"KRISHNAMOORTHY A - SCSE",
+         "ltpjc":"3 0 0 0 3 ",
+         "marks":{
+            "assessments":[
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-I",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-II",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-I",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-II",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-III",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Assignment",
+                  "weightage":5
+               }
+            ],
+            "max_marks":220,
+            "max_percentage":100,
+            "scored_marks":0.0,
+            "scored_percentage":0.0
+         },
+         "registration_status":"Registered and Approved",
+         "slot":"A1+TA1",
+         "venue":"SJT505"
+      },
+      {
+         "attendance":{
+            "attendance_percentage":"63%",
+            "attended_classes":"5",
+            "details":[
+               {
+                  "class_units":"0",
+                  "date":"04-Jan-2016",
+                  "reason":" - ",
+                  "slot":"F1",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"0",
+                  "date":"05-Jan-2016",
+                  "reason":" - ",
+                  "slot":"TF1",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"1",
+                  "date":"06-Jan-2016",
+                  "reason":" - ",
+                  "slot":"F1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"07-Jan-2016",
+                  "reason":" - ",
+                  "slot":"F1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"11-Jan-2016",
+                  "reason":" - ",
+                  "slot":"F1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"12-Jan-2016",
+                  "reason":" - ",
+                  "slot":"TF1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"0",
+                  "date":"13-Jan-2016",
+                  "reason":" - ",
+                  "slot":"F1",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"1",
+                  "date":"14-Jan-2016",
+                  "reason":" - ",
+                  "slot":"F1",
+                  "status":"Present"
+               }
+            ],
+            "registration_date":"30/12/2015 14:57:03",
+            "total_classes":"8"
+         },
+         "class_number":"4056",
+         "course_code":"CSE202",
+         "course_mode":"CBL",
+         "course_option":"Regular",
+         "course_title":"Algorithm Design and Analysis",
+         "course_type":"Theory Only",
+         "faculty":"DON  S - SCSE",
+         "ltpjc":"3 1 0 0 4 ",
+         "marks":{
+            "assessments":[
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-I",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":0.0,
+                  "status":"0",
+                  "title":"CAT-II",
+                  "weightage":15
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-I",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-II",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Quiz-III",
+                  "weightage":5
+               },
+               {
+                  "conducted_on":"Check Exam Schedule",
+                  "max_marks":5,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Assignment",
+                  "weightage":5
+               }
+            ],
+            "max_marks":220,
+            "max_percentage":100,
+            "scored_marks":0.0,
+            "scored_percentage":0.0
+         },
+         "registration_status":"Registered and Approved",
+         "slot":"F1+TF1",
+         "venue":"SJT403"
+      },
+      {
+         "attendance":{
+            "attendance_percentage":"67%",
+            "attended_classes":"4",
+            "details":[
+               {
+                  "class_units":"0",
+                  "date":"04-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C1",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"1",
+                  "date":"06-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"07-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"11-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C1",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"0",
+                  "date":"13-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C1",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"1",
+                  "date":"14-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C1",
+                  "status":"Present"
+               }
+            ],
+            "registration_date":"30/12/2015 14:48:52",
+            "total_classes":"6"
+         },
+         "class_number":"4072",
+         "course_code":"CSE222",
+         "course_mode":"PBL",
+         "course_option":"Regular",
+         "course_title":"Operating Systems",
+         "course_type":"Embedded Theory",
+         "faculty":"CHANDRA MOULI P.V.S.S.R - SCSE",
+         "ltpjc":"3 0 0 0 3 ",
+         "marks":{
+            "assessments":[
+               {
+                  "Conducted On":"N/A",
+                  "Max. Mark":"N/A",
+                  "Scored %":"N/A",
+                  "Scored Mark":"N/A",
+                  "Status":"N/A",
+                  "Weightage %":"N/A",
+                  "title":"N/A"
+               },
+               {
+                  "Conducted On":"N/A",
+                  "Max. Mark":"N/A",
+                  "Scored %":"N/A",
+                  "Scored Mark":"N/A",
+                  "Status":"N/A",
+                  "Weightage %":"N/A",
+                  "title":"N/A"
+               },
+               {
+                  "Conducted On":"N/A",
+                  "Max. Mark":"N/A",
+                  "Scored %":"N/A",
+                  "Scored Mark":"N/A",
+                  "Status":"N/A",
+                  "Weightage %":"N/A",
+                  "title":"N/A"
+               },
+               {
+                  "Conducted On":"N/A",
+                  "Max. Mark":"N/A",
+                  "Scored %":"N/A",
+                  "Scored Mark":"N/A",
+                  "Status":"N/A",
+                  "Weightage %":"N/A",
+                  "title":"N/A"
+               },
+               {
+                  "Conducted On":"N/A",
+                  "Max. Mark":"N/A",
+                  "Scored %":"N/A",
+                  "Scored Mark":"N/A",
+                  "Status":"N/A",
+                  "Weightage %":"N/A",
+                  "title":"N/A"
+               }
+            ]
+         },
+         "registration_status":"Registered and Approved",
+         "slot":"C1",
+         "venue":"SJT401"
+      },
+      {
+         "attendance":{
+            "attendance_percentage":"50%",
+            "attended_classes":"2",
+            "details":[
+               {
+                  "class_units":"0",
+                  "date":"05-Jan-2016",
+                  "reason":" - ",
+                  "slot":"L7+L8",
+                  "status":"Absent"
+               },
+               {
+                  "class_units":"2",
+                  "date":"12-Jan-2016",
+                  "reason":" - ",
+                  "slot":"L7+L8",
+                  "status":"Present"
+               }
+            ],
+            "registration_date":"30/12/2015 14:48:52",
+            "total_classes":"4"
+         },
+         "class_number":"5013",
+         "course_code":"CSE222",
+         "course_mode":"LBC",
+         "course_option":"Regular",
+         "course_title":"Operating Systems",
+         "course_type":"Embedded Lab",
+         "faculty":"ANURADHA J - SCSE",
+         "ltpjc":"0 0 2 0 1 ",
+         "marks":{
+            "assessments":[
+               {
+                  "conducted_on":"Tentative, set by lab faculty",
+                  "max_marks":50,
+                  "scored_marks":"0",
+                  "scored_percentage":"0",
+                  "status":"0",
+                  "title":"Lab_cam",
+                  "weightage":50
+               }
+            ],
+            "max_marks":100,
+            "max_percentage":100,
+            "scored_marks":0.0,
+            "scored_percentage":0.0
+         },
+         "slot":"L7+L8",
+         "venue":"SJT317"
+      },
+      {
+         "attendance":{
+            "attendance_percentage":"100%",
+            "attended_classes":"3",
+            "details":[
+               {
+                  "class_units":"1",
+                  "date":"11-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C2",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"13-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C2",
+                  "status":"Present"
+               },
+               {
+                  "class_units":"1",
+                  "date":"14-Jan-2016",
+                  "reason":" - ",
+                  "slot":"C2",
+                  "status":"Present"
+               }
+            ],
+            "registration_date":"09/01/2016 10:37:35",
+            "total_classes":"3"
+         },
+         "class_number":"1138",
+         "course_code":"STS202",
+         "course_mode":"PBL",
+         "course_option":"Regular",
+         "course_title":"Soft Skills",
+         "course_type":"Soft Skill",
+         "faculty":"SMART (APT) - ACAD",
+         "ltpjc":"0 0 0 0 1 ",
+         "registration_status":"Registered and Approved",
+         "slot":"C2",
+         "venue":"SJT112"
+      }
+   ],
+   "exam_schedule":{
+      "status":"Not_Updated"
+   },
+   "faculty_advisor":{
+      "Designation":"Assistant Professor (Selection Grade)",
+      "Email-Id":"vbalasubramanian@vit.ac.in",
+      "Intercom No":"2822",
+      "Mobile No/Phone No":"9443880429",
+      "Name":"BALASUBRAMANIAN V",
+      "Room No":"SJT-510-A29",
+      "School":"SCSE"
+   },
+   "reg_no":"14BCE0104",
+   "semester":"WS"
+}
