@@ -15,7 +15,7 @@ def results(reg_no = "", pswd = ""):
 	br = login(reg_no,pswd)
 
 	#checking that are we logged in or not
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
 		br.open("https://academics.vit.ac.in/student/grade.asp?sem=WS")
@@ -47,7 +47,7 @@ def timetable(reg_no = "", pswd = ""):
 	br = login(reg_no,pswd)
 
 	#checking that are we logged in or not
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
 		#opening time table page
@@ -85,7 +85,10 @@ def timetable(reg_no = "", pswd = ""):
 				
 				#if the course contains embedded lab
 				if len(cells) == 10:
-					ttable[rowdata[1].replace("\r\n\t\t","")+"_L"] = dict({("class_number",rowdata[0].replace("\r\n\t\t","")), ("course_code",rowdata[1].replace("\r\n\t\t","")), ("course_title",rowdata[2].replace("\r\n\t\t","")), ("course_type",rowdata[3].replace("\r\n\t\t","")), ("ltpjc",rowdata[4].replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",rowdata[5].replace("\r\n\t\t","")), ("course_option",rowdata[6].replace("\r\n\t\t","")), ("slot",rowdata[7].replace("\r\n\t\t","")), ("venue",rowdata[8].replace("\r\n\t\t","")), ("faculty",rowdata[9].replace("\r\n\t\t",""))})
+					if rowdata[1] in ttable.keys():
+						ttable[rowdata[1].replace("\r\n\t\t","")+"_L"] = dict({("class_number",rowdata[0].replace("\r\n\t\t","")), ("course_code",rowdata[1].replace("\r\n\t\t","")), ("course_title",rowdata[2].replace("\r\n\t\t","")), ("course_type",rowdata[3].replace("\r\n\t\t","")), ("ltpjc",rowdata[4].replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",rowdata[5].replace("\r\n\t\t","")), ("course_option",rowdata[6].replace("\r\n\t\t","")), ("slot",rowdata[7].replace("\r\n\t\t","")), ("venue",rowdata[8].replace("\r\n\t\t","")), ("faculty",rowdata[9].replace("\r\n\t\t",""))})
+					else:
+						ttable[rowdata[1].replace("\r\n\t\t","")] = dict({("class_number",rowdata[0].replace("\r\n\t\t","")), ("course_code",rowdata[1].replace("\r\n\t\t","")), ("course_title",rowdata[2].replace("\r\n\t\t","")), ("course_type",rowdata[3].replace("\r\n\t\t","")), ("ltpjc",rowdata[4].replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",rowdata[5].replace("\r\n\t\t","")), ("course_option",rowdata[6].replace("\r\n\t\t","")), ("slot",rowdata[7].replace("\r\n\t\t","")), ("venue",rowdata[8].replace("\r\n\t\t","")), ("faculty",rowdata[9].replace("\r\n\t\t",""))})
 				else:
 					ttable[rowdata[3].replace("\r\n\t\t","")] = dict({("class_number",rowdata[2].replace("\r\n\t\t","")), ("course_code",rowdata[3].replace("\r\n\t\t","")), ("course_title",rowdata[4].replace("\r\n\t\t","")), ("course_type",rowdata[5].replace("\r\n\t\t","")), ("ltpjc",rowdata[6].replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",rowdata[7].replace("\r\n\t\t","")), ("course_option",rowdata[8].replace("\r\n\t\t","")), ("slot",rowdata[9].replace("\r\n\t\t","")), ("venue",rowdata[10].replace("\r\n\t\t","")), ("faculty",rowdata[11].replace("\r\n\t\t","")), ("registration_status",rowdata[12].replace("\r\n\t\t",""))})
 		return {"status" : "Success" , "time_table" : ttable}
@@ -103,7 +106,7 @@ def get_facultyAdvisor_details(reg_no = "", pwd = ""):
 
 	#checking that are we logged in or not
 
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
 		#opening faculty advisor details page
@@ -150,7 +153,7 @@ def get_attendance_details(reg_no = "", pwd = ""):
 
 	print br.geturl()
 
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
 		months = {1:"Jan", 2:"Feb", 3:"Mar", 4:"Apr", 5:"May", 6:"Jun", 7:"Jul", 8:"Aug", 9:"Sep", 10:"Oct", 11:"Nov", 12:"Dec"}
@@ -246,7 +249,7 @@ def get_exam_schedule(reg_no = "", pwd = ""):
 
 	#checking that are we logged in or not
 
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
 		#inmporting Queue
@@ -325,7 +328,7 @@ def get_marks(reg_no = "", pwd = ""):
 
 	#checking that are we logged in or not
 
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
 		#opening marks page
@@ -373,11 +376,15 @@ def get_marks(reg_no = "", pwd = ""):
 				#assessments.append({"title" : "FAT", "max_marks" : 100, "weightage" : 50, "conducted_on" : "Check Exam Schedule", "status" : rowdata[18], "scored_marks" : rowdata[19], "scored_percentage" : (((float(rowdata[19]))/100)*50) }) 
 
 				marks[rowdata[2].replace("\r\n\t\t","")] = {"assessments" : assessments, "max_marks" : 220, "max_percentage" : 100, "scored_marks" : (float(rowdata[6])+float(rowdata[8])+float(rowdata[10])+float(rowdata[12])+float(rowdata[14])+float(rowdata[16])), "scored_percentage" : ((((float(rowdata[6]))/50)*15)+(((float(rowdata[8]))/50)*15)+(float(rowdata[10]))+(float(rowdata[12]))+(float(rowdata[14]))+(float(rowdata[16])))}
+			elif len(cells) == 6:
+				continue
 			else:
 				assessments.append({"title" : "Lab_cam", "max_marks" : 50, "weightage" : 50, "conducted_on" : "Tentative, set by lab faculty", "status" : rowdata[6], "scored_marks" : rowdata[7], "scored_percentage" : rowdata[7] })
 				#assessments.append({"title" : "FAT", "max_marks" : 50, "weightage" : 50, "conducted_on" : "Tentative, set by lab faculty", "status" : rowdata[8], "scored_marks" : rowdata[9], "scored_percentage" : rowdata[9] })
-				
-				marks[rowdata[2]+"_L"] = {"assessments" : assessments, "max_marks" : 100, "max_percentage" : 100, "scored_marks" : float(rowdata[7]), "scored_percentage" : (float(rowdata[7]))}
+				if rowdata[2] in marks.keys():
+					marks[rowdata[2]+"_L"] = {"assessments" : assessments, "max_marks" : 100, "max_percentage" : 100, "scored_marks" : float(rowdata[7]), "scored_percentage" : (float(rowdata[7]))}
+				else:
+					marks[rowdata[2]] = {"assessments" : assessments, "max_marks" : 100, "max_percentage" : 100, "scored_marks" : float(rowdata[7]), "scored_percentage" : (float(rowdata[7]))}
 
 		try:
 			myTable = tables[2]
@@ -588,7 +595,7 @@ def get_acad_history(reg_no = "", pwd = ""):
 
 	print br.geturl()
 
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
 		br.open("https://academics.vit.ac.in/student/student_history.asp")
@@ -676,7 +683,7 @@ def change_password(reg_no = "", pwd = "", newpwd = ""):
 
 	print br.geturl()
 
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
 		br.open("https://academics.vit.ac.in/student/changepswd.asp")
@@ -721,17 +728,17 @@ def change_password(reg_no = "", pwd = "", newpwd = ""):
 
 #####################################################################################################################################################
 
-"""def getFaculties(reg_no = "", pwd = ""):
+def getFaculties(reg_no = "", pwd = "", query = ""):
 
 	br = login(reg_no,pwd)
 
 	print br.geturl()
 
-	if br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
 		print "SUCCESS"
 
-		br.open("https://academics.vit.ac.in/student/getfacdet.asp?fac= ")
-		response = br.open("https://academics.vit.ac.in/student/getfacdet.asp?fac= ")
+		br.open("https://academics.vit.ac.in/student/getfacdet.asp?fac=%(query)s" % {"query" : query })
+		response = br.open("https://academics.vit.ac.in/student/getfacdet.asp?fac=%(query)s" % {"query" : query })
 
 		#selecting the form
 
@@ -744,7 +751,7 @@ def change_password(reg_no = "", pwd = "", newpwd = ""):
 		rows = rows[1:]
 
 		#initialising some required variables
-		facDetails = {}
+		facDetails = []
 		j = 0
 
 		#extracting data
@@ -761,10 +768,75 @@ def change_password(reg_no = "", pwd = "", newpwd = ""):
 				rowdata.append(value)
 
 			a = cells[3].find('a')['href']
-			facDetails[rowdata[0]] = dict({("facName" , rowdata[0]) , ("designation" , rowdata[1]) , ("school" , rowdata[2]) , ("detailedLink" , "https://academics.vit.ac.in/student/"+a)})
+			s = a.find("id=") + 3
+			emp_id = a[s:]
+			facDetails.append(dict({("facName" , rowdata[0]) , ("designation" , rowdata[1]) , ("school" , rowdata[2]) , ("emp_id" , emp_id)}))
 
-		return {"status" : "Success" ,"data" : facDetails}
+		return {"status" : "Success" ,"faculties" : facDetails}
 
 	else :
 		print "FAIL"
-		return {"status" : "Failure"}"""
+		return {"status" : "Failure"}
+
+#####################################################################################################################################################
+
+def getFaculty_det(reg_no = "", pwd = "", emp_id = ""):
+	br = login(reg_no,pwd)
+
+	print br.geturl()
+
+	if br.geturl() == ("https://academics.vit.ac.in/student/stud_home.asp") or br.geturl() == ("https://academics.vit.ac.in/student/home.asp"):
+		print "SUCCESS"
+
+		br.open("https://academics.vit.ac.in/student/official_detail_view.asp?empid=%(id)s" % {"id" : emp_id })
+		response = br.open("https://academics.vit.ac.in/student/official_detail_view.asp?empid=%(id)s" % {"id" : emp_id })
+
+		soup = BeautifulSoup(response.get_data())
+
+		img = soup.findAll('img')
+
+		#fac_img = "https://academics.vit.ac.in/student/"+img[0]['src']+"?"
+
+		tables = soup.findAll('table')
+		myTable = tables[1]
+		rows = myTable.findChildren(['th','tr'])
+		rows = rows[1:10]
+		data = []
+
+		facDet = {}
+
+		for row in rows:
+
+			cells = row.findChildren('td')
+			cells = cells[1]
+			value = cells.string
+			data.append(value)
+
+		try:
+			myTable = tables[2]
+
+		except IndexError:
+			facDet = {"name" : data[0], "school" : data[1], "destination" : data[2], "venue" : data[3], "intercom" : data[4], "email" : data[5], "division" : data[6], "additional_role" : data[7]}
+			
+		else:
+			rows = myTable.findChildren(['th','tr'])
+			rows = rows[1:4]
+			openhr = []
+
+			for row in rows:
+
+				rowdata = []
+				cells = row.findChildren('td')
+				
+				for cell in cells:
+					value = cell.string
+					rowdata.append(value)
+
+				openhr.append(rowdata)
+			facDet = {"name" : data[0], "school" : data[1], "destination" : data[2], "venue" : data[3], "intercom" : data[4], "email" : data[5], "division" : data[6], "additional_role" : data[7], "openhr_details" : openhr}
+
+		return {"status" : "Success" ,"details" : facDet}
+
+	else :
+		print "FAIL"
+		return {"status" : "Failure"}

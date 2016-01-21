@@ -147,14 +147,25 @@ def passwordchange():
 
 	return jsonify(**change_password(reg_no, pwd, newpwd))
 
-################################################################################ FACULTY DATABASE ######
+################################################################################ FACULTY SEARCH ######
 
-"""@app.route('/getFaculty', methods = ["GET"])
+@app.route('/getFaculty', methods = ["GET"])
 def getData():
 	reg_no = request.args.get("regNo")
 	pwd = request.args.get("psswd")
-	data = getFaculties(reg_no, pwd)
-	return jsonify(**data)"""
+	query = request.args.get("facName")
+	data = getFaculties(reg_no, pwd, query)
+	return jsonify(**data)
+
+################################################################################ FACULTY DETAILS ######
+
+@app.route('/getFacultyDet', methods = ["GET"])
+def getdata():
+	reg_no = request.args.get("regNo")
+	pwd = request.args.get("psswd")
+	empid = request.args.get("empId")
+	data = getFaculty_det(reg_no, pwd, empid)
+	return jsonify(**data)
 
 ################################################################################ REFRESH ###############
 

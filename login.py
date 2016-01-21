@@ -41,5 +41,13 @@ def login(reg_no="",pwd=""):
 
 	#submitting the values and signing in
 	br.method = "POST"
-	br.submit()
+	response = br.submit()
+
+	try:
+		br.open("https://academics.vit.ac.in/student/stud_home.asp")
+		br.select_form("stud_riviera")
+		br.submit(label = "Skip Now")
+	except:
+		print "ss"
+		
 	return br
