@@ -167,6 +167,15 @@ def getdata():
 	data = getFaculty_det(reg_no, pwd, empid)
 	return jsonify(**data)
 
+################################################################################ FACULTY DETAILS ######
+
+@app.route('/messages', methods = ["GET"])
+def getmessage():
+	reg_no = request.args.get("regNo")
+	pwd = request.args.get("psswd")
+	data = get_messages(reg_no, pwd)
+	return jsonify(**data)
+
 ################################################################################ REFRESH ###############
 
 @app.route('/refresh', methods = ["GET"])

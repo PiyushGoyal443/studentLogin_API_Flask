@@ -420,16 +420,26 @@ def majorRoute(reg_no = "", pswd = ""):
 
 				faculty_advisor[rowdata[0].replace("\r\n\t\t","")] = rowdata[1].replace("\r\n\t\t","")
 
-	
-		"""time_table = timetable(reg_no,pswd)['time_table']
-		attendance = get_attendance_details(reg_no,pswd)['attendance_det']
-		marks = get_marks(reg_no,pswd)['marks']
+		############################################# MESSAGES ###############################################
 
-		examSchedule = get_exam_schedule(reg_no,pswd)
+		br.open("https://academics.vit.ac.in/student/class_message_view.asp?sem=WS")
+		response = br.open("https://academics.vit.ac.in/student/class_message_view.asp?sem=WS")
 
-		faculty_advisor = get_facultyAdvisor_details(reg_no,pswd)["faculty_det"]
+		soup = BeautifulSoup(response.get_data())
+		tables = soup.findAll('table')
+		myTable = tables[1]
+		rows = myTable.findChildren(['th','tr'])
+		rows = rows[1:]
+		messages = []
 
-		academicHistory = get_acad_history(reg_no,pswd)"""
+		for row in rows[:-1]:
+			rowdata = []
+			cells = row.findChildren('td')
+			for cell in cells:
+
+				value = cell.string
+				rowdata.append(value)
+			messages.append({"From" : rowdata[0], "Course" : rowdata[1], "Message" : rowdata[2].replace("\r\n\r\n"," ").replace("\r\n"," "), "Posted on" : rowdata[3]})
 
 		#combining timetable attendance and marks as per their course code
 		mkeys = marks.keys()
@@ -451,7 +461,7 @@ def majorRoute(reg_no = "", pswd = ""):
 				print "no marks details"
 			i = i+1
 
-		return {"reg_no" : reg_no, "campus" : "vellore", "semester" : "WS", "courses" : data, "exam_schedule" : examSchedule, "faculty_advisor" : faculty_advisor, "academic_history" : academicHistory}
+		return {"reg_no" : reg_no, "campus" : "vellore", "semester" : "WS", "courses" : data, "exam_schedule" : examSchedule, "faculty_advisor" : faculty_advisor, "academic_history" : academicHistory, "messages" : messages}
 
 	else :
 		print "FAIL"
