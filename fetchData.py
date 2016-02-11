@@ -5,6 +5,7 @@ import datetime, pytz
 #####################################################################################################################################################
 
 def lgin(reg_no = "", pswd = ""):
+	
 	return { "reg_no": reg_no, "campus": "vellore", "status": {"message": "Successful execution", "code": 0} }
 
 #####################################################################################################################################################
@@ -64,34 +65,27 @@ def timetable(reg_no = "", pswd = ""):
 		rows = rows[1:]
 
 		#initialising some required variables
-		ttable = {}
+		time_table = {}
 
 		#extracting data
 		for row in rows:
 
-			rowdata =  []
 			cells = row.findAll('td')
 			if len(cells) == 1:
 				print "row_with_no_entries"
 				continue
 
 			else:
-
-				for cell in cells:
-					value = cell.getText()
-					#print value
-					rowdata.append(value)
-
 				
 				#if the course contains embedded lab
 				if len(cells) == 10:
-					if rowdata[1] in ttable.keys():
-						ttable[rowdata[1].replace("\r\n\t\t","")+"_L"] = dict({("class_number",rowdata[0].replace("\r\n\t\t","")), ("course_code",rowdata[1].replace("\r\n\t\t","")), ("course_title",rowdata[2].replace("\r\n\t\t","")), ("course_type",rowdata[3].replace("\r\n\t\t","")), ("ltpjc",rowdata[4].replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",rowdata[5].replace("\r\n\t\t","")), ("course_option",rowdata[6].replace("\r\n\t\t","")), ("slot",rowdata[7].replace("\r\n\t\t","")), ("venue",rowdata[8].replace("\r\n\t\t","")), ("faculty",rowdata[9].replace("\r\n\t\t",""))})
+					if cells[1].getText().replace("\r\n\t\t","") in time_table.keys():
+						time_table[cells[1].getText().replace("\r\n\t\t","")+"_L"] = dict({("class_number",cells[0].getText().replace("\r\n\t\t","")), ("course_code",cells[1].getText().replace("\r\n\t\t","")), ("course_title",cells[2].getText().replace("\r\n\t\t","")), ("course_type",cells[3].getText().replace("\r\n\t\t","")), ("ltpjc",cells[4].getText().replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",cells[5].getText().replace("\r\n\t\t","")), ("course_option",cells[6].getText().replace("\r\n\t\t","")), ("slot",cells[7].getText().replace("\r\n\t\t","")), ("venue",cells[8].getText().replace("\r\n\t\t","")), ("faculty",cells[9].getText().replace("\r\n\t\t",""))})
 					else:
-						ttable[rowdata[1].replace("\r\n\t\t","")] = dict({("class_number",rowdata[0].replace("\r\n\t\t","")), ("course_code",rowdata[1].replace("\r\n\t\t","")), ("course_title",rowdata[2].replace("\r\n\t\t","")), ("course_type",rowdata[3].replace("\r\n\t\t","")), ("ltpjc",rowdata[4].replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",rowdata[5].replace("\r\n\t\t","")), ("course_option",rowdata[6].replace("\r\n\t\t","")), ("slot",rowdata[7].replace("\r\n\t\t","")), ("venue",rowdata[8].replace("\r\n\t\t","")), ("faculty",rowdata[9].replace("\r\n\t\t",""))})
+						time_table[cells[1].getText().replace("\r\n\t\t","")] = dict({("class_number",cells[0].getText().replace("\r\n\t\t","")), ("course_code",cells[1].getText().replace("\r\n\t\t","")), ("course_title",cells[2].getText().replace("\r\n\t\t","")), ("course_type",cells[3].getText().replace("\r\n\t\t","")), ("ltpjc",cells[4].getText().replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",cells[5].getText().replace("\r\n\t\t","")), ("course_option",cells[6].getText().replace("\r\n\t\t","")), ("slot",cells[7].getText().replace("\r\n\t\t","")), ("venue",cells[8].getText().replace("\r\n\t\t","")), ("faculty",cells[9].getText().replace("\r\n\t\t",""))})
 				else:
-					ttable[rowdata[3].replace("\r\n\t\t","")] = dict({("class_number",rowdata[2].replace("\r\n\t\t","")), ("course_code",rowdata[3].replace("\r\n\t\t","")), ("course_title",rowdata[4].replace("\r\n\t\t","")), ("course_type",rowdata[5].replace("\r\n\t\t","")), ("ltpjc",rowdata[6].replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",rowdata[7].replace("\r\n\t\t","")), ("course_option",rowdata[8].replace("\r\n\t\t","")), ("slot",rowdata[9].replace("\r\n\t\t","")), ("venue",rowdata[10].replace("\r\n\t\t","")), ("faculty",rowdata[11].replace("\r\n\t\t","")), ("registration_status",rowdata[12].replace("\r\n\t\t",""))})
-		return {"status" : "Success" , "time_table" : ttable}
+					time_table[cells[3].getText().replace("\r\n\t\t","")] = dict({("class_number",cells[2].getText().replace("\r\n\t\t","")), ("course_code",cells[3].getText().replace("\r\n\t\t","")), ("course_title",cells[4].getText().replace("\r\n\t\t","")), ("course_type",cells[5].getText().replace("\r\n\t\t","")), ("ltpjc",cells[6].getText().replace("\n\r\n\t\t\t\t","").replace("\r\n\t\t\t\t\n","")), ("course_mode",cells[7].getText().replace("\r\n\t\t","")), ("course_option",cells[8].getText().replace("\r\n\t\t","")), ("slot",cells[9].getText().replace("\r\n\t\t","")), ("venue",cells[10].getText().replace("\r\n\t\t","")), ("faculty",cells[11].getText().replace("\r\n\t\t","")), ("registration_status",cells[12].getText().replace("\r\n\t\t",""))})
+		return {"status" : "Success" , "time_table" : time_table}
 	else :
 		print "FAIL"
 		return {"status" : "Failure"}
@@ -110,6 +104,7 @@ def get_facultyAdvisor_details(reg_no = "", pwd = ""):
 		print "SUCCESS"
 
 		#opening faculty advisor details page
+		#opening faculty advisor details page
 		br.open("https://academics.vit.ac.in/student/faculty_advisor_view.asp")
 		response = br.open("https://academics.vit.ac.in/student/faculty_advisor_view.asp")
 		soup = BeautifulSoup(response.get_data())
@@ -120,26 +115,20 @@ def get_facultyAdvisor_details(reg_no = "", pwd = ""):
 		rows = myTable.findChildren(['th','tr'])
 
 		#initialising some required variables
-		facdet = {}
+		faculty_advisor = {}
 
 		#extracting data
 		for row in rows:
 
-			rowdata =  []
 			cells = row.findChildren('td')
 
 			if len(cells) == 1:
 				continue
 
 			else:
-				for cell in cells:
+				faculty_advisor[cells[0].string.replace("\r\n\t\t","")] = cells[1].string.replace("\r\n\t\t","")
 
-					value = cell.string
-					#print value
-					rowdata.append(value)
-
-				facdet[rowdata[0].replace("\r\n\t\t","")] = rowdata[1].replace("\r\n\t\t","")
-		return {"status" : "Success" , "faculty_det" : facdet}
+		return {"status" : "Success" , "faculty_det" : faculty_advisor}
 
 	else :
 		print "FAIL"
@@ -180,19 +169,13 @@ def get_attendance_details(reg_no = "", pwd = ""):
 		i = 1
 
 		#initialising some required variables
-		attndet = {}
+		attendance = {}
 
 		#extracting data
 		for row in rows:
 
-			rowdata = []
 			details = []
 			cells = row.findChildren('td')
-			for cell in cells:
-
-				value = cell.getText()
-				#print value
-				rowdata.append(value)
 
 			br.select_form(nr=i)
 			i = i+1
@@ -209,31 +192,25 @@ def get_attendance_details(reg_no = "", pwd = ""):
 
 				for drow in drows:
 
-					data = []
 					dcells = drow.findChildren('td')
-					for dcell in dcells:
 
-						value = dcell.getText()
-						#print value
-						data.append(value)
-
-					details.append({"date" : data[1], "slot" : data[2], "status" : data[3], "class_units" : data[4], "reason" : data[5]})
+					details.append({"date" : dcells[1].getText(), "slot" : dcells[2].getText(), "status" : dcells[3].getText(), "class_units" : dcells[4].getText(), "reason" : dcells[5].getText()})
 
 				br.open("https://academics.vit.ac.in/student/attn_report.asp?sem=WS&fmdt=09-Jul-2015&todt=%(to_date)s" % {"to_date" : today })
 
-				if rowdata[1] not in attndet.keys():
-					attndet[rowdata[1]] = {"registration_date" : rowdata[5], "attended_classes" : rowdata[6], "total_classes" : rowdata[7], "attendance_percentage" : rowdata[8], "details" : details}
+				if cells[1].getText().replace("\r\n\t\t","") not in attendance.keys():
+					attendance[cells[1].getText().replace("\r\n\t\t","")] = {"registration_date" : cells[5].getText().replace("\r\n\t\t",""), "attended_classes" : cells[6].getText().replace("\r\n\t\t",""), "total_classes" : cells[7].getText().replace("\r\n\t\t",""), "attendance_percentage" : cells[8].getText().replace("\r\n\t\t",""), "details" : details}
 				else:
-					attndet[rowdata[1]+"_L"] = {"registration_date" : rowdata[5], "attended_classes" : rowdata[6], "total_classes" : rowdata[7], "attendance_percentage" : rowdata[8], "details" : details}
+					attendance[cells[1].getText().replace("\r\n\t\t","")+"_L"] = {"registration_date" : cells[5].getText().replace("\r\n\t\t",""), "attended_classes" : cells[6].getText().replace("\r\n\t\t",""), "total_classes" : cells[7].getText().replace("\r\n\t\t",""), "attendance_percentage" : cells[8].getText().replace("\r\n\t\t",""), "details" : details}
 
 			except:
 				br.open("https://academics.vit.ac.in/student/attn_report.asp?sem=WS&fmdt=09-Jul-2015&todt=%(to_date)s" % {"to_date" : today })
-				if rowdata[1] not in attndet.keys():
-					attndet[rowdata[1]] = {"registration_date" : rowdata[5], "attended_classes" : rowdata[6], "total_classes" : rowdata[7], "attendance_percentage" : rowdata[8], "details" : {}}
+				if cells[1].getText().replace("\r\n\t\t","") not in attendance.keys():
+					attendance[cells[1].getText().replace("\r\n\t\t","")] = {"registration_date" : cells[5].getText().replace("\r\n\t\t",""), "attended_classes" : cells[6].getText().replace("\r\n\t\t",""), "total_classes" : cells[7].getText().replace("\r\n\t\t",""), "attendance_percentage" : cells[8].getText().replace("\r\n\t\t",""), "details" : {}}
 				else:
-					attndet[rowdata[1]+"_L"] = {"registration_date" : rowdata[5], "attended_classes" : rowdata[6], "total_classes" : rowdata[7], "attendance_percentage" : rowdata[8], "details" : {}}
+					attendance[cells[1].getText().replace("\r\n\t\t","")+"_L"] = {"registration_date" : cells[5].getText().replace("\r\n\t\t",""), "attended_classes" : cells[6].getText().replace("\r\n\t\t",""), "total_classes" : cells[7].getText().replace("\r\n\t\t",""), "attendance_percentage" : cells[8].getText().replace("\r\n\t\t",""), "details" : {}}
 
-		return {"status" : "Success" , "attendance_det" : attndet}
+		return {"status" : "Success" , "attendance_det" : attendance}
 
 	else :
 		print "FAIL"
@@ -268,49 +245,44 @@ def get_exam_schedule(reg_no = "", pwd = ""):
 			myTable = tables[1]
 		except IndexError:
 			myTable = 'null'
-			return {"status" : "Not_Updated"}
+			examSchedule = {"cat1" : "Not_updated" , "cat2" : "Not_updated" , "term_end" : "Not_updated"}
 
-		rows = myTable.findChildren(['th','tr'])
-		rows = rows[2:]
+		else:
 
-		#initialising some required variables for getting schedule for CAT-1
-		schedule = {}
+			rows = myTable.findChildren(['th','tr'])
+			rows = rows[2:]
 
-		#holding the cat1, cat2, termend schedules in queue
-		p = q.Queue()
-		
-		#extracting data
-		for row in rows:
+			#initialising some required variables for getting schedule for CAT-1
+			schedule = {}
 
-			rowdata = []
-			cells = row.findChildren('td')
-
-			if len(cells) != 1:
-				for cell in cells:
-
-					value = cell.string
-					#print value
-					rowdata.append(value)
-
-				schedule[rowdata[1].replace("\r\n\t\t","")] = dict({("crTitle",rowdata[2].replace("\r\n\t\t","")), ("slot",rowdata[4].replace("\r\n\t\t","")), ("date",rowdata[5].replace("\r\n\t\t","")), ("day",rowdata[6].replace("\r\n\t\t","")), ("session",rowdata[7].replace("\r\n\t\t","")), ("time",rowdata[8].replace("\r\n\t\t",""))})
+			#holding the cat1, cat2, termend schedules in queue
+			p = q.Queue()
 			
-			elif len(cells) == 1:
+			#extracting data
+			for row in rows:
 
-				p.put(schedule)
-				schedule = {}
-				continue
+				cells = row.findChildren('td')
 
-		cat1 = p.get()
+				if len(cells) != 1:
 
-		if p.empty():
-			cat2 = {}
-		else:
-			cat2 = p.get()
+					schedule[cells[1].string.replace("\r\n\t\t","")] = dict({("crTitle",cells[2].string.replace("\r\n\t\t","")), ("slot",cells[4].string.replace("\r\n\t\t","")), ("date",cells[5].string.replace("\r\n\t\t","")), ("day",cells[6].string.replace("\r\n\t\t","")), ("session",cells[7].string.replace("\r\n\t\t","")), ("time",cells[8].string.replace("\r\n\t\t",""))})
+			
+				elif len(cells) == 1:
 
-		if p.empty():
-			termend = {}
-		else:
-			termend = p.get()
+					p.put(schedule)
+					schedule = {}
+					continue
+
+			cat1 = p.get()
+
+			if p.empty():
+				cat2 = {}
+			else:
+				cat2 = p.get()
+			if p.empty():
+				termend = {}
+			else:
+				termend = p.get()
 
 		return {"status" : "Success" , "cat1" : cat1 , "cat2" : cat2 , "term_end" : termend}
 
@@ -610,22 +582,14 @@ def get_acad_history(reg_no = "", pwd = ""):
 
 		#initialising some required variables
 		history1 = {}
-		j = 0
 
 		#extracting data
 		for row in rows:
 
-			rowdata =  []
 			cells = row.findChildren('td')
 			cells = cells[1:6]
-			j=0
-			for cell in cells:
 
-				value = cell.string
-				#print value
-				rowdata.append(value)
-
-			history1[rowdata[0].replace("\r\n\t\t","")] = dict({("course_title" , rowdata[1].replace("\r\n\t\t","")) , ("course_type" , rowdata[2].replace("\r\n\t\t","")) , ("credit" , rowdata[3].replace("\r\n\t\t","")) , ("grade" , rowdata[4].replace("\r\n\t\t",""))})
+			history1[cells[0].string.replace("\r\n\t\t","")] = dict({("course_title" , cells[1].string.replace("\r\n\t\t","")) , ("course_type" , cells[2].string.replace("\r\n\t\t","")) , ("credit" , cells[3].string.replace("\r\n\t\t","")) , ("grade" , cells[4].string.replace("\r\n\t\t",""))})
 
 		myTable = tables[3]
 
@@ -638,15 +602,9 @@ def get_acad_history(reg_no = "", pwd = ""):
 		#extracting data
 		for row in rows:
 
-			rowdata =  []
 			cells = row.findChildren('td')
-			for cell in cells:
 
-				value = cell.string
-				#print value
-				rowdata.append(value)
-
-			history2 = dict({("credits registered" , rowdata[0].replace("\r\n\t\t","")) , ("credits earned" , rowdata[1].replace("\r\n\t\t","")) , ("cgpa" , rowdata[2].replace("\r\n\t\t","")) , ("rank" , rowdata[3].replace("\r\n\t\t",""))})
+			history2 = dict({("credits registered" , cells[0].string.replace("\r\n\t\t","")) , ("credits earned" , cells[1].string.replace("\r\n\t\t","")) , ("cgpa" , cells[2].string.replace("\r\n\t\t","")) , ("rank" , cells[3].string.replace("\r\n\t\t",""))})
 
 		myTable = tables[4]
 
@@ -659,15 +617,9 @@ def get_acad_history(reg_no = "", pwd = ""):
 		#extracting data
 		for row in rows:
 
-			rowdata =  []
 			cells = row.findChildren('td')
-			for cell in cells:
 
-				value = cell.string
-				#print value
-				rowdata.append(value)
-
-			grdSumm = dict({("S grades" , rowdata[0].replace("\r\n\t\t","")) , ("A grades" , rowdata[1].replace("\r\n\t\t","")) , ("B grades" , rowdata[2].replace("\r\n\t\t","")) , ("C grades" , rowdata[3].replace("\r\n\t\t","")) , ("D grades" , rowdata[4].replace("\r\n\t\t","")) , ("E grades" , rowdata[5].replace("\r\n\t\t","")) , ("F grades" , rowdata[6].replace("\r\n\t\t","")) , ("N grades" , rowdata[7].replace("\r\n\t\t",""))})
+			grdSumm = dict({("S grades" , cells[0].string.replace("\r\n\t\t","")) , ("A grades" , cells[1].string.replace("\r\n\t\t","")) , ("B grades" , cells[2].string.replace("\r\n\t\t","")) , ("C grades" , cells[3].string.replace("\r\n\t\t","")) , ("D grades" , cells[4].string.replace("\r\n\t\t","")) , ("E grades" , cells[5].string.replace("\r\n\t\t","")) , ("F grades" , cells[6].string.replace("\r\n\t\t","")) , ("N grades" , cells[7].string.replace("\r\n\t\t",""))})
 
 		return {"status" : "Success" , "history 1" : history1 , "history 2" : history2 , "grade summary" : grdSumm}
 
@@ -757,20 +709,14 @@ def getFaculties(reg_no = "", pwd = "", query = ""):
 		#extracting data
 		for row in rows:
 
-			rowdata =  []
 			cells = row.findChildren('td')
 			cells = cells[0:4]
 			j=0
-			for cell in cells:
-
-				value = cell.string
-				#print value
-				rowdata.append(value)
 
 			a = cells[3].find('a')['href']
 			s = a.find("id=") + 3
 			emp_id = a[s:]
-			facDetails.append(dict({("facName" , rowdata[0]) , ("designation" , rowdata[1]) , ("school" , rowdata[2]) , ("emp_id" , emp_id)}))
+			facDetails.append(dict({("facName" , cells[0].string) , ("designation" , cells[1].string) , ("school" , cells[2].string) , ("emp_id" , cells[3].string)}))
 
 		return {"status" : "Success" ,"faculties" : facDetails}
 
@@ -859,16 +805,15 @@ def get_messages(reg_no = "", pwd = ""):
 			tables = soup.findAll('table')
 			myTable = tables[1]
 			rows = myTable.findChildren(['th','tr'])
+
 			rows = rows[1:]
 			messages = []
-			for row in rows[:-1]:
-				rowdata = []
-				cells = row.findChildren('td')
-				for cell in cells:
 
-					value = cell.string
-					rowdata.append(value)
-				messages.append({"From" : rowdata[0], "Course" : rowdata[1], "Message" : rowdata[2].replace("\r\n\r\n"," ").replace("\r\n"," "), "Posted on" : rowdata[3]})
+			for row in rows[:-1]:
+
+				cells = row.findChildren('td')
+				
+				messages.append({"From" : cells[0].string.replace("\r\n\t\t",""), "Course" : cells[1].string.replace("\r\n\t\t",""), "Message" : cells[2].string.replace("\r\n\t\t","").replace("\r\n"," "), "Posted on" : cells[3].string.replace("\r\n\t\t","")})
 		except:
 			messages = []
 
