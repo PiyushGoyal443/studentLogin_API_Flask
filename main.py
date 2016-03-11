@@ -5,6 +5,7 @@ from fetchData import *
 from CoursePage import get_courses, get_slot, get_faculty, get_data
 from majorRoute import majorRoute
 import os
+from cal import calmarks
 
 app = Flask(__name__)
 
@@ -28,7 +29,7 @@ def login_det():
 def spotlight():
 	return jsonify(**get_spotlight())
 
-################################################################################ FACULTY ADVISOR #######
+######################################################################## FACULTY ADVISOR DETAILS #######
 
 @app.route('/facadvdet', methods=["GET"])
 def login_facultyAdvisor():
@@ -63,6 +64,18 @@ def get_mark():
 	pwd = request.args.get("psswd")
 
 	return jsonify(**get_marks(reg_no, pwd))
+
+################################################################################ CAL MARKS ############
+
+@app.route('/cal', methods = ["GET"])
+def getcalmarks():
+	reg_no = request.args.get("regNo")
+	pwd = request.args.get("psswd")
+	print int(reg_no[0:2])
+	if int(reg_no[0:2]) <= 14:
+		return jsonify(**calmarks(reg_no, pwd))
+	else:
+		return jsonify(**{"status" : "not_supported"})
 
 ################################################################################ EXAM SCHEDULE #########
 
