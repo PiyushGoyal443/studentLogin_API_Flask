@@ -1,1536 +1,2612 @@
 {
-  "academic_history": {
-    "grade summary": {
-      "A grades": "10",
-      "B grades": "6",
-      "C grades": "0",
-      "D grades": "1",
-      "E grades": "0",
-      "F grades": "0",
-      "N grades": "0",
-      "S grades": "3"
-    },
-    "history 1": {
-      "CHY101": {
-        "course_title": "Engineering Chemistry",
-        "course_type": "TheoryLab",
-        "credit": "4",
-        "grade": "A"
-      },
-      "CHY104": {
-        "course_title": "Environmental Studies",
-        "course_type": "Theory",
-        "credit": "3",
-        "grade": "A"
-      },
-      "CSE101": {
-        "course_title": "Computer Programming and Problem Solving",
-        "course_type": "TheoryLab",
-        "credit": "3",
-        "grade": "B"
-      },
-      "CSE109": {
-        "course_title": "Digital Logic",
-        "course_type": "TheoryLab",
-        "credit": "4",
-        "grade": "A"
-      },
-      "CSE205_20": {
-        "course_title": "Computer Architecture and Organization",
-        "course_type": "Theory",
-        "credit": "4",
-        "grade": "B"
-      },
-      "CSE219": {
-        "course_title": "Object Oriented Paradigm and Programming",
-        "course_type": "TheoryLab",
-        "credit": "5",
-        "grade": "A"
-      },
-      "CSE220": {
-        "course_title": "Data Structures and Algorithms",
-        "course_type": "TheoryLab",
-        "credit": "5",
-        "grade": "S"
-      },
-      "EEE101": {
-        "course_title": "Basic Electrical and Electronics Engineering",
-        "course_type": "TheoryLab",
-        "credit": "4",
-        "grade": "B"
-      },
-      "EEE103": {
-        "course_title": "Electronics",
-        "course_type": "TheoryLab",
-        "credit": "4",
-        "grade": "A"
-      },
-      "ENG101_20": {
-        "course_title": "English for Engineers - I",
-        "course_type": "TheoryLab",
-        "credit": "3",
-        "grade": "D"
-      },
-      "ENG102_20": {
-        "course_title": "English for Engineers - II",
-        "course_type": "TheoryLab",
-        "credit": "3",
-        "grade": "B"
-      },
-      "ESP101": {
-        "course_title": "Basic Spanish",
-        "course_type": "Theory",
-        "credit": "2",
-        "grade": "B"
-      },
-      "MAT106": {
-        "course_title": "Discrete Mathematical Structures",
-        "course_type": "Theory",
-        "credit": "4",
-        "grade": "A"
-      },
-      "MAT114": {
-        "course_title": "Multivariable Calculus and Differential Equations",
-        "course_type": "TheoryLab",
-        "credit": "4",
-        "grade": "A"
-      },
-      "MAT115": {
-        "course_title": "Differential and Difference Equations",
-        "course_type": "TheoryLab",
-        "credit": "4",
-        "grade": "S"
-      },
-      "MAT203": {
-        "course_title": "Numerical Analysis",
-        "course_type": "Theory",
-        "credit": "3",
-        "grade": "A"
-      },
-      "MEE101": {
-        "course_title": "Engineering Graphics",
-        "course_type": "Lab",
-        "credit": "2",
-        "grade": "S"
-      },
-      "MEE102": {
-        "course_title": "Workshop Practice",
-        "course_type": "Lab",
-        "credit": "1",
-        "grade": "A"
-      },
-      "PHY101": {
-        "course_title": "Modern Physics",
-        "course_type": "TheoryLab",
-        "credit": "4",
-        "grade": "B"
-      },
-      "STS201": {
-        "course_title": "Soft Skills",
-        "course_type": "SS",
-        "credit": "1",
-        "grade": "A"
-      }
-    },
-    "history 2": {
-      "cgpa": "  8.73",
-      "credits earned": "67",
-      "credits registered": "67",
-      "rank": "175 out of 742"
-    }
-  },
-  "campus": "vellore",
   "courses": [
     {
-      "attendance": {
-        "attendance_percentage": "83%",
-        "attended_classes": "14",
-        "details": [
-          {
-            "class_units": "1",
-            "date": "04-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "06-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "07-Jan-2016",
-            "reason": " - ",
-            "slot": "TE1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "08-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "11-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "13-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "14-Jan-2016",
-            "reason": " - ",
-            "slot": "TE1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "18-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "20-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "21-Jan-2016",
-            "reason": " - ",
-            "slot": "TE1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "22-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "25-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "27-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "28-Jan-2016",
-            "reason": " - ",
-            "slot": "TE1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "29-Jan-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "01-Feb-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "03-Feb-2016",
-            "reason": " - ",
-            "slot": "E1",
-            "status": "Present"
-          }
-        ],
-        "registration_date": "30/12/2015 14:54:05",
-        "total_classes": "17"
-      },
-      "class_number": "1395",
-      "course_code": "MAT207",
-      "course_mode": "CBL",
-      "course_option": "Regular",
-      "course_title": "Applied Probability, Statistics and Reliability",
-      "course_type": "Theory Only",
-      "faculty": "PALANIVEL K - SAS",
-      "ltpjc": "3 1 0 0 4 ",
-      "marks": {
-        "assessments": [
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
-            "title": "CAT-I",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
-            "title": "CAT-II",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-I",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-II",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-III",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Assignment",
-            "weightage": 5
-          }
-        ],
-        "max_marks": 220,
-        "max_percentage": 100,
-        "scored_marks": 0.0,
-        "scored_percentage": 0.0
-      },
-      "registration_status": "Registered and Approved",
-      "slot": "E1+TE1",
-      "venue": "SJT403"
-    },
-    {
-      "attendance": {
-        "attendance_percentage": "72%",
-        "attended_classes": "10",
-        "details": [
-          {
-            "class_units": "1",
-            "date": "04-Jan-2016",
-            "reason": " - ",
-            "slot": "TD1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "05-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "07-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "08-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "11-Jan-2016",
-            "reason": " - ",
-            "slot": "TD1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "12-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "14-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "18-Jan-2016",
-            "reason": " - ",
-            "slot": "TD1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "19-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "21-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "22-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "25-Jan-2016",
-            "reason": " - ",
-            "slot": "TD1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "0",
-            "date": "28-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "0",
-            "date": "29-Jan-2016",
-            "reason": " - ",
-            "slot": "D1",
-            "status": "Absent"
-          }
-        ],
-        "registration_date": "30/12/2015 14:52:19",
-        "total_classes": "14"
-      },
-      "class_number": "1384",
-      "course_code": "MAT202",
-      "course_mode": "CBL",
-      "course_option": "Regular",
-      "course_title": "Linear Algebra",
-      "course_type": "Theory Only",
-      "faculty": "RAJASEKARAN G - SAS",
-      "ltpjc": "3 1 0 0 4 ",
-      "marks": {
-        "assessments": [
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
-            "title": "CAT-I",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
-            "title": "CAT-II",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-I",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-II",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-III",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Assignment",
-            "weightage": 5
-          }
-        ],
-        "max_marks": 220,
-        "max_percentage": 100,
-        "scored_marks": 0.0,
-        "scored_percentage": 0.0
-      },
-      "registration_status": "Registered and Approved",
-      "slot": "D1+TD1",
-      "venue": "SJT221"
-    },
-    {
-      "attendance": {
-        "attendance_percentage": "72%",
-        "attended_classes": "10",
-        "details": [
-          {
-            "class_units": "0",
-            "date": "08-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "11-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "13-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "14-Jan-2016",
-            "reason": " - ",
-            "slot": "TE2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "18-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "20-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "21-Jan-2016",
-            "reason": " - ",
-            "slot": "TE2",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "22-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "25-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "27-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "28-Jan-2016",
-            "reason": " - ",
-            "slot": "TE2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "29-Jan-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "01-Feb-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "03-Feb-2016",
-            "reason": " - ",
-            "slot": "E2",
-            "status": "Absent"
-          }
-        ],
-        "registration_date": "07/01/2016 10:47:49",
-        "total_classes": "14"
-      },
-      "class_number": "4749",
-      "course_code": "CSE208",
-      "course_mode": "CBL",
-      "course_option": "Regular",
-      "course_title": "Theory of Computation",
-      "course_type": "Theory Only",
-      "faculty": "LAKSHMANAN K - SCOPE",
-      "ltpjc": "3 1 0 0 4 ",
-      "marks": {
-        "assessments": [
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
-            "title": "CAT-I",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
-            "title": "CAT-II",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-I",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-II",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-III",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Assignment",
-            "weightage": 5
-          }
-        ],
-        "max_marks": 220,
-        "max_percentage": 100,
-        "scored_marks": 0.0,
-        "scored_percentage": 0.0
-      },
-      "registration_status": "Registered and Approved",
-      "slot": "E2+TE2",
-      "venue": "SJT409"
-    },
-    {
+      "slot": "B2",
       "attendance": {
         "attendance_percentage": "100%",
-        "attended_classes": "4",
+        "total_classes": "17",
+        "registration_date": "30/12/2015 17:19:18",
         "details": [
           {
-            "class_units": "2",
+            "date": "05-Jan-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "08-Jan-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "12-Jan-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "19-Jan-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
             "date": "22-Jan-2016",
+            "slot": "B2",
             "reason": " - ",
-            "slot": "L57+L58",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "1"
           },
           {
-            "class_units": "2",
             "date": "29-Jan-2016",
+            "slot": "B2",
             "reason": " - ",
-            "slot": "L57+L58",
-            "status": "Present"
-          }
-        ],
-        "registration_date": "09/01/2016 10:32:38",
-        "total_classes": "4"
-      },
-      "class_number": "5471",
-      "course_code": "CSE221",
-      "course_mode": "LBC",
-      "course_option": "Regular",
-      "course_title": "Microprocessor and Interfacing",
-      "course_type": "Embedded Lab",
-      "faculty": "JIMMY MATHEW - SCOPE",
-      "ltpjc": "0 0 2 0 1 ",
-      "marks": {
-        "assessments": [
-          {
-            "conducted_on": "Tentative, set by lab faculty",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Lab_cam",
-            "weightage": 50
-          }
-        ],
-        "max_marks": 100,
-        "max_percentage": 100,
-        "scored_marks": 0.0,
-        "scored_percentage": 0.0
-      },
-      "slot": "L57+L58",
-      "venue": "SJT416"
-    },
-    {
-      "attendance": {
-        "attendance_percentage": "92%",
-        "attended_classes": "11",
-        "details": [
-          {
-            "class_units": "1",
-            "date": "11-Jan-2016",
-            "reason": " - ",
-            "slot": "A1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "1"
           },
           {
-            "class_units": "1",
-            "date": "12-Jan-2016",
-            "reason": " - ",
-            "slot": "TA1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "14-Jan-2016",
-            "reason": " - ",
-            "slot": "A1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "18-Jan-2016",
-            "reason": " - ",
-            "slot": "A1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "19-Jan-2016",
-            "reason": " - ",
-            "slot": "TA1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "21-Jan-2016",
-            "reason": " - ",
-            "slot": "A1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "25-Jan-2016",
-            "reason": " - ",
-            "slot": "A1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "28-Jan-2016",
-            "reason": " - ",
-            "slot": "A1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "01-Feb-2016",
-            "reason": " - ",
-            "slot": "A1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
             "date": "02-Feb-2016",
+            "slot": "B2",
             "reason": " - ",
-            "slot": "TA1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "1"
           },
           {
-            "class_units": "1",
             "date": "09-Feb-2016",
+            "slot": "B2",
             "reason": " - ",
-            "slot": "TA1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "1"
           },
           {
-            "class_units": "1",
-            "date": "11-Feb-2016",
+            "date": "12-Feb-2016",
+            "slot": "B2",
             "reason": " - ",
-            "slot": "A1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "16-Feb-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "19-Feb-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "01-Mar-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "04-Mar-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "08-Mar-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Mar-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "15-Mar-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Mar-2016",
+            "slot": "B2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
           }
         ],
-        "registration_date": "09/01/2016 10:26:53",
-        "total_classes": "12"
+        "attended_classes": "17"
       },
-      "class_number": "4065",
-      "course_code": "CSE221",
-      "course_mode": "CBL",
+      "course_title": "Digital Logic and Design",
       "course_option": "Regular",
-      "course_title": "Microprocessor and Interfacing",
-      "course_type": "Embedded Theory",
-      "faculty": "KRISHNAMOORTHY A - SCOPE",
-      "ltpjc": "3 0 0 0 3 ",
       "marks": {
+        "scored_percentage": 7.4,
         "assessments": [
           {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
+            "weightage": 10,
+            "status": "Present",
+            "scored_percentage": 7.4,
             "title": "CAT-I",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
             "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "37.00"
+          },
+          {
+            "weightage": 10,
             "status": "0",
+            "scored_percentage": 0,
             "title": "CAT-II",
-            "weightage": 15
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "0"
           },
           {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
+            "weightage": 30,
             "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-I",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
+            "title": "Digital Assignment",
+            "max_marks": 30,
             "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-II",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-III",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Assignment",
-            "weightage": 5
+            "conducted_on": "Check Exam Schedule"
           }
         ],
-        "max_marks": 220,
-        "max_percentage": 100,
-        "scored_marks": 0.0,
-        "scored_percentage": 0.0
+        "max_marks": 130,
+        "scored_marks": 37,
+        "max_percentage": 50
       },
-      "registration_status": "Registered and Approved",
-      "slot": "A1+TA1",
-      "venue": "SJT505"
+      "course_mode": "CBL",
+      "venue": "SJT409",
+      "course_type": "Embedded Theory",
+      "faculty": "MARIMUTHU K - SCOPE",
+      "ltpjc": "2 0 0 0 2 ",
+      "course_code": "CSE1003",
+      "class_number": "4668",
+      "registration_status": "Registered and Approved"
     },
     {
+      "slot": "L3+L4+L13+L14+L29+L30",
       "attendance": {
-        "attendance_percentage": "80%",
-        "attended_classes": "16",
+        "attendance_percentage": "97%",
+        "total_classes": "60",
+        "registration_date": "30/12/2015 17:15:47",
         "details": [
           {
-            "class_units": "0",
             "date": "04-Jan-2016",
+            "slot": "L3+L4",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Absent"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "0",
-            "date": "05-Jan-2016",
-            "reason": " - ",
-            "slot": "TF1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
             "date": "06-Jan-2016",
+            "slot": "L13+L14",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "07-Jan-2016",
+            "date": "08-Jan-2016",
+            "slot": "L29+L30",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
             "date": "11-Jan-2016",
+            "slot": "L3+L4",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "12-Jan-2016",
-            "reason": " - ",
-            "slot": "TF1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
             "date": "13-Jan-2016",
+            "slot": "L13+L14",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "14-Jan-2016",
-            "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
             "date": "18-Jan-2016",
+            "slot": "L3+L4",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "19-Jan-2016",
-            "reason": " - ",
-            "slot": "TF1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
             "date": "20-Jan-2016",
+            "slot": "L13+L14",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Absent"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "21-Jan-2016",
+            "date": "22-Jan-2016",
+            "slot": "L29+L30",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
             "date": "25-Jan-2016",
+            "slot": "L3+L4",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
             "date": "27-Jan-2016",
+            "slot": "L13+L14",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "28-Jan-2016",
+            "date": "29-Jan-2016",
+            "slot": "L29+L30",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
             "date": "01-Feb-2016",
+            "slot": "L3+L4",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "02-Feb-2016",
-            "reason": " - ",
-            "slot": "TF1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
             "date": "03-Feb-2016",
+            "slot": "L13+L14",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "09-Feb-2016",
-            "reason": " - ",
-            "slot": "TF1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
             "date": "10-Feb-2016",
+            "slot": "L13+L14",
             "reason": " - ",
-            "slot": "F1",
-            "status": "Absent"
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "12-Feb-2016",
+            "slot": "L29+L30",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "15-Feb-2016",
+            "slot": "L3+L4",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "17-Feb-2016",
+            "slot": "L13+L14",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "19-Feb-2016",
+            "slot": "L29+L30",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "29-Feb-2016",
+            "slot": "L3+L4",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "02-Mar-2016",
+            "slot": "L13+L14",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "04-Mar-2016",
+            "slot": "L29+L30",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "07-Mar-2016",
+            "slot": "L3+L4",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "09-Mar-2016",
+            "slot": "L13+L14",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "11-Mar-2016",
+            "slot": "L29+L30",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "14-Mar-2016",
+            "slot": "L3+L4",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "16-Mar-2016",
+            "slot": "L13+L14",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "18-Mar-2016",
+            "slot": "L29+L30",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "21-Mar-2016",
+            "slot": "L3+L4",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "23-Mar-2016",
+            "slot": "L13+L14",
+            "reason": " - ",
+            "status": "Absent",
+            "class_units": "0"
+          },
+          {
+            "date": "28-Mar-2016",
+            "slot": "L3+L4",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
           }
         ],
-        "registration_date": "30/12/2015 14:57:03",
-        "total_classes": "20"
+        "attended_classes": "58"
       },
-      "class_number": "4056",
-      "course_code": "CSE202",
-      "course_mode": "CBL",
-      "course_option": "Regular",
-      "course_title": "Algorithm Design and Analysis",
-      "course_type": "Theory Only",
-      "faculty": "DON  S - SCOPE",
-      "ltpjc": "3 1 0 0 4 ",
-      "marks": {
-        "assessments": [
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
-            "title": "CAT-I",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 50,
-            "scored_marks": "0",
-            "scored_percentage": 0.0,
-            "status": "0",
-            "title": "CAT-II",
-            "weightage": 15
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-I",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-II",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Quiz-III",
-            "weightage": 5
-          },
-          {
-            "conducted_on": "Check Exam Schedule",
-            "max_marks": 5,
-            "scored_marks": "0",
-            "scored_percentage": "0",
-            "status": "0",
-            "title": "Assignment",
-            "weightage": 5
-          }
-        ],
-        "max_marks": 220,
-        "max_percentage": 100,
-        "scored_marks": 0.0,
-        "scored_percentage": 0.0
-      },
-      "registration_status": "Registered and Approved",
-      "slot": "F1+TF1",
-      "venue": "SJT403"
-    },
-    {
-      "attendance": {
-        "attendance_percentage": "79%",
-        "attended_classes": "11",
-        "details": [
-          {
-            "class_units": "0",
-            "date": "04-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "06-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "07-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "11-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "13-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "14-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "18-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "20-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "21-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
-            "date": "25-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "27-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "28-Jan-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "01-Feb-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "03-Feb-2016",
-            "reason": " - ",
-            "slot": "C1",
-            "status": "Present"
-          }
-        ],
-        "registration_date": "30/12/2015 14:48:52",
-        "total_classes": "14"
-      },
-      "class_number": "4072",
-      "course_code": "CSE222",
-      "course_mode": "PBL",
-      "course_option": "Regular",
-      "course_title": "Operating Systems",
-      "course_type": "Embedded Theory",
-      "faculty": "CHANDRA MOULI P.V.S.S.R - SCOPE",
-      "ltpjc": "3 0 0 0 3 ",
-      "marks": {
-        "assessments": [
-          {
-            "Conducted On": "N/A",
-            "Max. Mark": "N/A",
-            "Scored %": "N/A",
-            "Scored Mark": "N/A",
-            "Status": "N/A",
-            "Weightage %": "N/A",
-            "title": "N/A"
-          },
-          {
-            "Conducted On": "N/A",
-            "Max. Mark": "N/A",
-            "Scored %": "N/A",
-            "Scored Mark": "N/A",
-            "Status": "N/A",
-            "Weightage %": "N/A",
-            "title": "N/A"
-          },
-          {
-            "Conducted On": "N/A",
-            "Max. Mark": "N/A",
-            "Scored %": "N/A",
-            "Scored Mark": "N/A",
-            "Status": "N/A",
-            "Weightage %": "N/A",
-            "title": "N/A"
-          },
-          {
-            "Conducted On": "N/A",
-            "Max. Mark": "N/A",
-            "Scored %": "N/A",
-            "Scored Mark": "N/A",
-            "Status": "N/A",
-            "Weightage %": "N/A",
-            "title": "N/A"
-          },
-          {
-            "Conducted On": "N/A",
-            "Max. Mark": "N/A",
-            "Scored %": "N/A",
-            "Scored Mark": "N/A",
-            "Status": "N/A",
-            "Weightage %": "N/A",
-            "title": "N/A"
-          }
-        ]
-      },
-      "registration_status": "Registered and Approved",
-      "slot": "C1",
-      "venue": "SJT401"
-    },
-    {
-      "attendance": {
-        "attendance_percentage": "80%",
-        "attended_classes": "8",
-        "details": [
-          {
-            "class_units": "0",
-            "date": "05-Jan-2016",
-            "reason": " - ",
-            "slot": "L7+L8",
-            "status": "Absent"
-          },
-          {
-            "class_units": "2",
-            "date": "12-Jan-2016",
-            "reason": " - ",
-            "slot": "L7+L8",
-            "status": "Present"
-          },
-          {
-            "class_units": "2",
-            "date": "19-Jan-2016",
-            "reason": " - ",
-            "slot": "L7+L8",
-            "status": "Present"
-          },
-          {
-            "class_units": "2",
-            "date": "02-Feb-2016",
-            "reason": " - ",
-            "slot": "L7+L8",
-            "status": "Present"
-          },
-          {
-            "class_units": "2",
-            "date": "09-Feb-2016",
-            "reason": " - ",
-            "slot": "L7+L8",
-            "status": "Present"
-          }
-        ],
-        "registration_date": "30/12/2015 14:48:52",
-        "total_classes": "10"
-      },
-      "class_number": "5013",
-      "course_code": "CSE222",
+      "course_title": "Problem Solving with Object Oriented Programming",
       "course_mode": "LBC",
       "course_option": "Regular",
-      "course_title": "Operating Systems",
-      "course_type": "Embedded Lab",
-      "faculty": "ANURADHA J - SCOPE",
-      "ltpjc": "0 0 2 0 1 ",
-      "slot": "L7+L8",
-      "venue": "SJT317"
+      "venue": "SJT515",
+      "course_type": "Lab Only",
+      "faculty": "VIJAYASHERLY V - SCOPE",
+      "ltpjc": "0 0 6 0 3 ",
+      "course_code": "CSE1002",
+      "class_number": "4757",
+      "registration_status": "Registered and Approved"
     },
     {
+      "slot": "NIL",
       "attendance": {
-        "attendance_percentage": "64%",
-        "attended_classes": "7",
+        "attendance_percentage": "100%",
+        "total_classes": "22",
+        "registration_date": "30/12/2015 17:19:18",
         "details": [
           {
-            "class_units": "1",
+            "date": "04-Jan-2016",
+            "slot": "L1+L2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
             "date": "11-Jan-2016",
+            "slot": "L1+L2",
             "reason": " - ",
-            "slot": "C2",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "13-Jan-2016",
-            "reason": " - ",
-            "slot": "C2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "14-Jan-2016",
-            "reason": " - ",
-            "slot": "C2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
             "date": "18-Jan-2016",
+            "slot": "L1+L2",
             "reason": " - ",
-            "slot": "C2",
-            "status": "Present"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "0",
-            "date": "20-Jan-2016",
-            "reason": " - ",
-            "slot": "C2",
-            "status": "Absent"
-          },
-          {
-            "class_units": "1",
-            "date": "21-Jan-2016",
-            "reason": " - ",
-            "slot": "C2",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
             "date": "25-Jan-2016",
+            "slot": "L1+L2",
             "reason": " - ",
-            "slot": "C2",
-            "status": "Absent"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "1",
-            "date": "27-Jan-2016",
-            "reason": " - ",
-            "slot": "C2",
-            "status": "Present"
-          },
-          {
-            "class_units": "1",
-            "date": "28-Jan-2016",
-            "reason": " - ",
-            "slot": "C2",
-            "status": "Present"
-          },
-          {
-            "class_units": "0",
             "date": "01-Feb-2016",
+            "slot": "L1+L2",
             "reason": " - ",
-            "slot": "C2",
-            "status": "Absent"
+            "status": "Present",
+            "class_units": "2"
           },
           {
-            "class_units": "0",
-            "date": "03-Feb-2016",
+            "date": "15-Feb-2016",
+            "slot": "L1+L2",
             "reason": " - ",
-            "slot": "C2",
-            "status": "Absent"
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "29-Feb-2016",
+            "slot": "L1+L2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "07-Mar-2016",
+            "slot": "L1+L2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "14-Mar-2016",
+            "slot": "L1+L2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "21-Mar-2016",
+            "slot": "L1+L2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "28-Mar-2016",
+            "slot": "L1+L2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
           }
         ],
-        "registration_date": "09/01/2016 10:37:35",
-        "total_classes": "11"
+        "attended_classes": "22"
       },
-      "class_number": "1138",
-      "course_code": "STS202",
-      "course_mode": "PBL",
+      "course_title": "Digital Logic and Design",
+      "course_mode": "PBC",
       "course_option": "Regular",
+      "venue": "NIL",
+      "course_type": "Embedded Project",
+      "faculty": "MARIMUTHU K - SCOPE",
+      "ltpjc": "0 0 0 4 1 ",
+      "course_code": "CSE1003",
+      "class_number": "5109"
+    },
+    {
+      "slot": "NIL",
+      "course_title": "Introduction to Innovative Projects",
+      "course_mode": "PBC",
+      "venue": "NIL",
+      "course_option": "Regular",
+      "course_type": "Embedded Project",
+      "faculty": "VIJAYA CHAMUNDEESWARI S P - SAS",
+      "ltpjc": "0 0 0 4 1 ",
+      "course_code": "PHY1999",
+      "class_number": "6776"
+    },
+    {
+      "slot": "NIL",
+      "course_title": "Ethics and Values",
+      "course_mode": "PBC",
+      "venue": "NIL",
+      "course_option": "Regular",
+      "course_type": "Embedded Project",
+      "faculty": "NILAVATHY K - SSL",
+      "ltpjc": "0 0 0 4 1 ",
+      "course_code": "HUM1021",
+      "class_number": "5348"
+    },
+    {
+      "slot": "L19+L20",
+      "attendance": {
+        "attendance_percentage": "100%",
+        "total_classes": "18",
+        "registration_date": "30/12/2015 17:03:13",
+        "details": [
+          {
+            "date": "07-Jan-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "14-Jan-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "21-Jan-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "28-Jan-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "11-Feb-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "18-Feb-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "03-Mar-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "10-Mar-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "17-Mar-2016",
+            "slot": "L19+L20",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          }
+        ],
+        "attended_classes": "18"
+      },
+      "course_title": "Engineering Chemistry",
+      "course_mode": "LBC",
+      "venue": "SMVG027",
+      "course_option": "Regular",
+      "course_type": "Embedded Lab",
+      "faculty": "BARNALI MAITI - SAS",
+      "ltpjc": "0 0 2 0 1 ",
+      "course_code": "CHY1001",
+      "class_number": "5532"
+    },
+    {
+      "slot": "L9+L10",
+      "attendance": {
+        "attendance_percentage": "100%",
+        "total_classes": "22",
+        "registration_date": "30/12/2015 17:06:25",
+        "details": [
+          {
+            "date": "05-Jan-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "12-Jan-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "19-Jan-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "02-Feb-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "09-Feb-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "16-Feb-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "01-Mar-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "08-Mar-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "15-Mar-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "22-Mar-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "29-Mar-2016",
+            "slot": "L9+L10",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          }
+        ],
+        "attended_classes": "22"
+      },
+      "course_title": "Applications of Differential and Difference Equations",
+      "course_mode": "LBC",
+      "course_option": "Regular",
+      "venue": "SJT417",
+      "course_type": "Embedded Lab",
+      "faculty": "SHOBANA DEVI N - SAS",
+      "ltpjc": "0 0 2 0 1 ",
+      "course_code": "MAT2002",
+      "class_number": "1520"
+    },
+    {
+      "slot": "TD2",
+      "attendance": {
+        "attendance_percentage": "91%",
+        "total_classes": "11",
+        "registration_date": "30/12/2015 17:10:57",
+        "details": [
+          {
+            "date": "04-Jan-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Jan-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Jan-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "25-Jan-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "01-Feb-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "15-Feb-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Absent",
+            "class_units": "0"
+          },
+          {
+            "date": "29-Feb-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "07-Mar-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "14-Mar-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "21-Mar-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "28-Mar-2016",
+            "slot": "TD2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          }
+        ],
+        "attended_classes": "10"
+      },
+      "course_title": "Introduction to Innovative Projects",
+      "course_option": "Regular",
+      "course_mode": "PBL",
+      "venue": "TTGAL02",
+      "course_type": "Embedded Theory",
+      "faculty": "VIJAYA CHAMUNDEESWARI S P - SAS",
+      "ltpjc": "1 0 0 0 1 ",
+      "course_code": "PHY1999",
+      "class_number": "6452",
+      "registration_status": "Registered and Approved"
+    },
+    {
+      "slot": "D2",
+      "attendance": {
+        "attendance_percentage": "100%",
+        "total_classes": "28",
+        "registration_date": "30/12/2015 17:03:13",
+        "details": [
+          {
+            "date": "05-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "07-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "08-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "12-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "14-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "19-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "21-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "22-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "28-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "29-Jan-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "02-Feb-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "09-Feb-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Feb-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "12-Feb-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "16-Feb-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Feb-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "19-Feb-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "01-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "03-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "04-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "08-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "10-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "15-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "17-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "22-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "29-Mar-2016",
+            "slot": "D2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          }
+        ],
+        "attended_classes": "28"
+      },
+      "course_title": "Engineering Chemistry",
+      "course_mode": "CBL",
+      "marks": {
+        "scored_percentage": 8.2,
+        "assessments": [
+          {
+            "weightage": 10,
+            "status": "Present",
+            "scored_percentage": 8.2,
+            "title": "CAT-I",
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "41.00"
+          },
+          {
+            "weightage": 10,
+            "status": "0",
+            "scored_percentage": 0,
+            "title": "CAT-II",
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "0"
+          },
+          {
+            "weightage": 30,
+            "scored_percentage": "0",
+            "title": "Digital Assignment",
+            "max_marks": 30,
+            "scored_marks": "0",
+            "conducted_on": "Check Exam Schedule"
+          }
+        ],
+        "max_marks": 130,
+        "scored_marks": 41,
+        "max_percentage": 50
+      },
+      "course_option": "Regular",
+      "venue": "SJT201",
+      "course_type": "Embedded Theory",
+      "faculty": "PUNDLIK RAMBHAU BHAGAT - SAS",
+      "ltpjc": "3 0 0 0 3 ",
+      "course_code": "CHY1001",
+      "class_number": "4450",
+      "registration_status": "Registered and Approved"
+    },
+    {
+      "slot": "G2",
+      "attendance": {
+        "attendance_percentage": "100%",
+        "total_classes": "19",
+        "registration_date": "30/12/2015 17:26:26",
+        "details": [
+          {
+            "date": "05-Jan-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "08-Jan-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "12-Jan-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "19-Jan-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "22-Jan-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "29-Jan-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "02-Feb-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "09-Feb-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "12-Feb-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "16-Feb-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "19-Feb-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "01-Mar-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "04-Mar-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "08-Mar-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Mar-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "15-Mar-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Mar-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "22-Mar-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "29-Mar-2016",
+            "slot": "G2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          }
+        ],
+        "attended_classes": "19"
+      },
+      "course_title": "Data Structures and Algorithms",
+      "course_mode": "CBL",
+      "marks": {
+        "scored_percentage": 6.800000000000001,
+        "assessments": [
+          {
+            "weightage": 10,
+            "status": "Present",
+            "scored_percentage": 6.800000000000001,
+            "title": "CAT-I",
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "34.00"
+          },
+          {
+            "weightage": 10,
+            "status": "0",
+            "scored_percentage": 0,
+            "title": "CAT-II",
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "0"
+          },
+          {
+            "weightage": 30,
+            "scored_percentage": "0",
+            "title": "Digital Assignment",
+            "max_marks": 30,
+            "scored_marks": "0",
+            "conducted_on": "Check Exam Schedule"
+          }
+        ],
+        "max_marks": 130,
+        "scored_marks": 34,
+        "max_percentage": 50
+      },
+      "course_option": "Regular",
+      "venue": "SJT303",
+      "course_type": "Embedded Theory",
+      "faculty": "PRABU S - SCOPE",
+      "ltpjc": "2 0 0 0 2 ",
+      "course_code": "CSE2003",
+      "class_number": "4673",
+      "registration_status": "Registered and Approved"
+    },
+    {
+      "slot": "F2",
+      "attendance": {
+        "attendance_percentage": "100%",
+        "total_classes": "27",
+        "registration_date": "30/12/2015 16:59:16",
+        "details": [
+          {
+            "date": "04-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "06-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "07-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "13-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "14-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "20-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "21-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "25-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "27-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "28-Jan-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "01-Feb-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "03-Feb-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "10-Feb-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Feb-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "15-Feb-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "17-Feb-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Feb-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "29-Feb-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "02-Mar-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "07-Mar-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "09-Mar-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "14-Mar-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "16-Mar-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "21-Mar-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "23-Mar-2016",
+            "slot": "F2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          }
+        ],
+        "attended_classes": "27"
+      },
       "course_title": "Soft Skills",
       "course_type": "Soft Skill",
-      "faculty": "SMART (APT) - ACAD",
+      "course_option": "Regular",
+      "course_mode": "PBL",
+      "venue": "SJT105",
+      "faculty": "FACE (APT) - ACAD",
       "ltpjc": "0 0 0 0 1 ",
-      "registration_status": "Registered and Approved",
-      "slot": "C2",
-      "venue": "SJT112"
+      "course_code": "STS1001",
+      "class_number": "1073",
+      "registration_status": "Registered and Approved"
+    },
+    {
+      "slot": "TB2",
+      "attendance": {
+        "attendance_percentage": "100%",
+        "total_classes": "10",
+        "registration_date": "30/12/2015 17:31:03",
+        "details": [
+          {
+            "date": "06-Jan-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "13-Jan-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "20-Jan-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "27-Jan-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "03-Feb-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "10-Feb-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "17-Feb-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "02-Mar-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "09-Mar-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "23-Mar-2016",
+            "slot": "TB2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          }
+        ],
+        "attended_classes": "10"
+      },
+      "course_title": "Ethics and Values",
+      "course_mode": "CBL",
+      "marks": {
+        "scored_percentage": 6,
+        "assessments": [
+          {
+            "weightage": 10,
+            "status": "Present",
+            "scored_percentage": 6,
+            "title": "CAT-I",
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "30.00"
+          },
+          {
+            "weightage": 10,
+            "status": "0",
+            "scored_percentage": 0,
+            "title": "CAT-II",
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "0"
+          },
+          {
+            "weightage": 30,
+            "scored_percentage": "0",
+            "title": "Digital Assignment",
+            "max_marks": 30,
+            "scored_marks": "0",
+            "conducted_on": "Check Exam Schedule"
+          }
+        ],
+        "max_marks": 130,
+        "scored_marks": 30,
+        "max_percentage": 50
+      },
+      "course_option": "Regular",
+      "venue": "SJT301",
+      "course_type": "Embedded Theory",
+      "faculty": "NILAVATHY K - SSL",
+      "ltpjc": "1 0 0 0 1 ",
+      "course_code": "HUM1021",
+      "class_number": "5362",
+      "registration_status": "Registered and Approved"
+    },
+    {
+      "slot": "NIL",
+      "attendance": {
+        "attendance_percentage": "100%",
+        "total_classes": "18",
+        "registration_date": "30/12/2015 17:26:26",
+        "details": [
+          {
+            "date": "07-Jan-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "14-Jan-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "21-Jan-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "28-Jan-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "11-Feb-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "18-Feb-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "03-Mar-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "10-Mar-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          },
+          {
+            "date": "17-Mar-2016",
+            "slot": "L23+L24",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "2"
+          }
+        ],
+        "attended_classes": "18"
+      },
+      "course_title": "Data Structures and Algorithms",
+      "course_mode": "PBC",
+      "course_option": "Regular",
+      "venue": "NIL",
+      "course_type": "Embedded Project",
+      "faculty": "PRABU S - SCOPE",
+      "ltpjc": "0 0 0 4 1 ",
+      "course_code": "CSE2003",
+      "class_number": "5151"
+    },
+    {
+      "slot": "A2+TA2",
+      "attendance": {
+        "attendance_percentage": "100%",
+        "total_classes": "24",
+        "registration_date": "05/01/2016 18:36:50",
+        "details": [
+          {
+            "date": "05-Jan-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "07-Jan-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Jan-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "12-Jan-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "14-Jan-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Jan-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "19-Jan-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "21-Jan-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "25-Jan-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "28-Jan-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "01-Feb-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "02-Feb-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "09-Feb-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "11-Feb-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "15-Feb-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "16-Feb-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "18-Feb-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "29-Feb-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "01-Mar-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "03-Mar-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "14-Mar-2016",
+            "slot": "A2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "15-Mar-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "22-Mar-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          },
+          {
+            "date": "29-Mar-2016",
+            "slot": "TA2",
+            "reason": " - ",
+            "status": "Present",
+            "class_units": "1"
+          }
+        ],
+        "attended_classes": "24"
+      },
+      "course_title": "Applications of Differential and Difference Equations",
+      "course_option": "Regular",
+      "venue": "TT204",
+      "marks": {
+        "scored_percentage": 9,
+        "assessments": [
+          {
+            "weightage": 10,
+            "status": "Present",
+            "scored_percentage": 9,
+            "title": "CAT-I",
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "45.00"
+          },
+          {
+            "weightage": 10,
+            "status": "0",
+            "scored_percentage": 0,
+            "title": "CAT-II",
+            "max_marks": 50,
+            "conducted_on": "Check Exam Schedule",
+            "scored_marks": "0"
+          },
+          {
+            "weightage": 30,
+            "scored_percentage": "0",
+            "title": "Digital Assignment",
+            "max_marks": 30,
+            "scored_marks": "0",
+            "conducted_on": "Check Exam Schedule"
+          }
+        ],
+        "max_marks": 130,
+        "scored_marks": 45,
+        "max_percentage": 50
+      },
+      "course_mode": "CBL",
+      "course_type": "Embedded Theory",
+      "faculty": "VIJAYA KUMAR A.G - SAS",
+      "ltpjc": "3 0 0 0 3 ",
+      "course_code": "MAT2002",
+      "class_number": "1335",
+      "registration_status": "Registered and Approved"
     }
   ],
-  "exam_schedule": {
-    "cat1": {
-      "CSE202": {
-        "crTitle": "Algorithm Design and Analysis",
-        "date": "26-Feb-2016",
-        "day": "FRI",
-        "session": "FN",
-        "slot": "F1+TF1",
-        "time": "09:00 AM - 10:30 AM"
+  "semester": "WS",
+  "academic_history": {
+    "history1": [
+      {
+        "grade": "NA",
+        "credit": "NA",
+        "course_code": "CHY1002",
+        "course_title": "Environmental Sciences",
+        "course_type": "EProject"
       },
-      "CSE208": {
-        "crTitle": "Theory of Computation",
-        "date": "25-Feb-2016",
-        "day": "THU",
-        "session": "AN",
-        "slot": "E2+TE2",
-        "time": "02:00 PM - 03:30 PM"
+      {
+        "grade": "NA",
+        "credit": "NA",
+        "course_code": "CHY1002",
+        "course_title": "Environmental Sciences",
+        "course_type": "ETheory"
       },
-      "CSE221": {
-        "crTitle": "Microprocessor and Interfacing",
-        "date": "21-Feb-2016",
-        "day": "SUN",
-        "session": "FN",
-        "slot": "A1+TA1",
-        "time": "09:00 AM - 10:30 AM"
+      {
+        "grade": "C",
+        "credit": "3",
+        "course_title": "Environmental Sciences",
+        "course_type": "TheoryProject"
       },
-      "MAT202": {
-        "crTitle": "Linear Algebra",
-        "date": "24-Feb-2016",
-        "day": "WED",
-        "session": "FN",
-        "slot": "D1+TD1",
-        "time": "09:00 AM - 10:30 AM"
+      {
+        "grade": "S",
+        "credit": "3",
+        "course_title": "Problem Solving and Programming",
+        "course_type": "Lab"
       },
-      "MAT207": {
-        "crTitle": "Applied Probability, Statistics and Reliability",
-        "date": "25-Feb-2016",
-        "day": "THU",
-        "session": "FN",
-        "slot": "E1+TE1",
-        "time": "09:00 AM - 10:30 AM"
+      {
+        "grade": "NA",
+        "course_type": "ELab",
+        "course_code": "EEE1001",
+        "course_title": "Basic Electrical and Electronics Engineering",
+        "credit": "NA"
+      },
+      {
+        "grade": "NA",
+        "credit": "NA",
+        "course_code": "EEE1001",
+        "course_title": "Basic Electrical and Electronics Engineering",
+        "course_type": "ETheory"
+      },
+      {
+        "grade": "B",
+        "credit": "3",
+        "course_title": "Basic Electrical and Electronics Engineering",
+        "course_type": "TheoryLab"
+      },
+      {
+        "grade": "NA",
+        "course_type": "ELab",
+        "course_code": "ENG1011",
+        "course_title": "English for Engineers",
+        "credit": "NA"
+      },
+      {
+        "grade": "NA",
+        "credit": "NA",
+        "course_code": "ENG1011",
+        "course_title": "English for Engineers",
+        "course_type": "ETheory"
+      },
+      {
+        "grade": "B",
+        "credit": "2",
+        "course_title": "English for Engineers",
+        "course_type": "TheoryLab"
+      },
+      {
+        "grade": "NA",
+        "course_type": "ELab",
+        "course_code": "MAT1011",
+        "course_title": "Calculus for Engineers",
+        "credit": "NA"
+      },
+      {
+        "grade": "NA",
+        "credit": "NA",
+        "course_code": "MAT1011",
+        "course_title": "Calculus for Engineers",
+        "course_type": "ETheory"
+      },
+      {
+        "grade": "B",
+        "credit": "4",
+        "course_title": "Calculus for Engineers",
+        "course_type": "TheoryLab"
+      },
+      {
+        "grade": "NA",
+        "course_type": "ELab",
+        "course_code": "PHY1001",
+        "course_title": "Engineering Physics",
+        "credit": "NA"
+      },
+      {
+        "grade": "NA",
+        "credit": "NA",
+        "course_code": "PHY1001",
+        "course_title": "Engineering Physics",
+        "course_type": "EProject"
+      },
+      {
+        "grade": "NA",
+        "credit": "NA",
+        "course_code": "PHY1001",
+        "course_title": "Engineering Physics",
+        "course_type": "ETheory"
+      },
+      {
+        "grade": "C",
+        "credit": "5",
+        "course_title": "Engineering Physics",
+        "course_type": "TheoryLabProject"
       }
-    },
-    "cat2": {},
-    "term_end": {}
+    ],
+    "history2": [
+      {
+        "credits registered": "20",
+        "cgpa": "  7.90",
+        "credits earned": "20",
+        "rank": "494 out of 801"
+      }
+    ],
+    "grdSumm": [
+      {
+        "C grades": "2",
+        "B grades": "3",
+        "D grades": "0",
+        "F grades": "0",
+        "A grades": "0",
+        "E grades": "0",
+        "N grades": "0",
+        "S grades": "1"
+      }
+    ]
   },
   "faculty_advisor": {
-    "Designation": "Assistant Professor (Selection Grade)",
-    "Email-Id": "vbalasubramanian@vit.ac.in",
-    "Intercom No": "2822",
-    "Mobile No/Phone No": "9443880429",
-    "Name": "BALASUBRAMANIAN V",
-    "Room No": "SJT-510-A29",
-    "School": "SCOPE"
+    "School": "SSL",
+    "Name": "GAURAV SUSHANT",
+    "Designation": "Assistant Professor",
+    "Mobile No/Phone No": "9787083763",
+    "Intercom No": "2747",
+    "Room No": "SJT-213-07A",
+    "Email-Id": "gaurav.sushant@vit.ac.in"
   },
+  "CAL_marks": {
+    "MAT2002L": {
+      "course_type": "Embedded Lab",
+      "details": [
+        {
+          "due_date": "05-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "4",
+          "assignment_title": "Stress distribution in a tower bridge",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "12-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "6",
+          "assignment_title": "Stress Distribution in a Tower Bridge",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "19-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Google’s Mechanism for Ranking Web-Pages",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "02-FEB-2016",
+          "assignment_status": "NA",
+          "max_marks": "5",
+          "assignment_title": "Determining the Shape of a Suspension Bridge Cable",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "09-FEB-2016",
+          "assignment_status": "NA",
+          "max_marks": "5",
+          "assignment_title": "Determining the Shape of a Suspension Bridge Cable",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "16-FEB-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Functionality of Windshield Wipers",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "01-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Blood Flow in Arteries",
+          "marks_status": "NA",
+          "marks_score": ""
+        }
+      ],
+      "faculty": "SHOBANA DEVI N - SAS"
+    },
+    "CSE1003": {
+      "course_type": "Embedded Theory",
+      "details": [],
+      "faculty": "MARIMUTHU K - SCOPE"
+    },
+    "CSE1002": {
+      "course_type": "Lab Only",
+      "details": [],
+      "faculty": "VIJAYASHERLY V - SCOPE"
+    },
+    "CSE1003L": {
+      "course_type": "Embedded Lab",
+      "details": [
+        {
+          "due_date": "04-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "3",
+          "assignment_title": "Introduction",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "11-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "4",
+          "assignment_title": "Basic gates",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "18-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "3",
+          "assignment_title": "Universal gates",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "25-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "5",
+          "assignment_title": "Combinational circuits",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "01-FEB-2016",
+          "assignment_status": "NA",
+          "max_marks": "2",
+          "assignment_title": "Adder and subtractor 1 2",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "15-FEB-2016",
+          "assignment_status": "NA",
+          "max_marks": "3",
+          "assignment_title": "Adder and subtractor 3 4",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "29-FEB-2016",
+          "assignment_status": "NA",
+          "max_marks": "15",
+          "assignment_title": "Lab Assessment 1",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "07-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "4",
+          "assignment_title": "Code converter and seven segment display",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "14-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "4",
+          "assignment_title": "parallel adder and magnitude comparator",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "21-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "4",
+          "assignment_title": "encoder and decoder",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "28-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "3",
+          "assignment_title": "MUX and DeMUX",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "11-APR-2016",
+          "assignment_status": "NA",
+          "max_marks": "15",
+          "assignment_title": "Lab assessment 2",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "18-APR-2016",
+          "assignment_status": "NA",
+          "max_marks": "7",
+          "assignment_title": "Flip flop",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "25-APR-2016",
+          "assignment_status": "NA",
+          "max_marks": "8",
+          "assignment_title": "Counter and shifter",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "02-MAY-2016",
+          "assignment_status": "NA",
+          "max_marks": "20",
+          "assignment_title": "Final lab assessment",
+          "marks_status": "NA",
+          "marks_score": ""
+        }
+      ],
+      "faculty": "MARIMUTHU K - SCOPE"
+    },
+    "CSE2003L": {
+      "course_type": "Embedded Lab",
+      "details": [],
+      "faculty": "PRABU S - SCOPE"
+    },
+    "CHY1001": {
+      "course_type": "Embedded Theory",
+      "details": [
+        {
+          "due_date": "31-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "POLYMERS IN DAILY LIFE",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "17-APR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "ALTERNATIVE FOR FOSSIL FUELS",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "30-APR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "MEASURES TO PREVENT SCARCITY OF WATER FOR DOMESTIC AND INDUSTRIAL USE",
+          "marks_status": "NA",
+          "marks_score": ""
+        }
+      ],
+      "faculty": "PUNDLIK RAMBHAU BHAGAT - SAS"
+    },
+    "CSE2003": {
+      "course_type": "Embedded Theory",
+      "details": [],
+      "faculty": "PRABU S - SCOPE"
+    },
+    "CHY1001L": {
+      "course_type": "Embedded Lab",
+      "details": [
+        {
+          "due_date": "07-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "0",
+          "assignment_title": "Lab instruction",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "14-JAN-2016",
+          "assignment_status": "NA",
+          "max_marks": "0",
+          "assignment_title": "Lab instruction",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "21-JAN-2016",
+          "assignment_status": "Approved",
+          "max_marks": "10",
+          "assignment_title": "Estimation of Water hardness",
+          "marks_status": "Accept",
+          "marks_score": "10.00"
+        },
+        {
+          "due_date": "28-JAN-2016",
+          "assignment_status": "Approved",
+          "max_marks": "10",
+          "assignment_title": "Irrigation water-sulphate ion analysis",
+          "marks_status": "Accept",
+          "marks_score": "10.00"
+        },
+        {
+          "due_date": "11-FEB-2016",
+          "assignment_status": "Approved",
+          "max_marks": "10",
+          "assignment_title": "Assessment of chemical oxygen demand (COD) levels  in effluent water",
+          "marks_status": "Accept",
+          "marks_score": "10.00"
+        },
+        {
+          "due_date": "18-FEB-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Analysis of single electrode potential and construction of Daniel Cell",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "03-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Water quality monitoring",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "10-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Engineering polymers- viscosity and molecular weight analysis",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "17-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Colorimetric estimation of nickel in steel",
+          "marks_status": "NA",
+          "marks_score": ""
+        }
+      ],
+      "faculty": "BARNALI MAITI - SAS"
+    },
+    "HUM1021": {
+      "course_type": "Embedded Theory",
+      "details": [
+        {
+          "due_date": "20-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Poster making on gender and social development - a positive approach",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "20-MAR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Write up on your poster",
+          "marks_status": "NA",
+          "marks_score": ""
+        },
+        {
+          "due_date": "26-APR-2016",
+          "assignment_status": "NA",
+          "max_marks": "10",
+          "assignment_title": "Assignment on ethical issues faced by students",
+          "marks_status": "NA",
+          "marks_score": ""
+        }
+      ],
+      "faculty": "NILAVATHY K - SSL"
+    },
+    "MAT2002": {
+      "course_type": "Embedded Theory",
+      "details": [],
+      "faculty": "VIJAYA KUMAR A.G - SAS"
+    }
+  },
+  "reg_no": "15BCE0571",
   "messages": [
     {
-      "Course": "STS202 - Soft Skills - SS",
-      "From": "SMART (APT) (ACAD)",
-      "Message": "Dear Students,  Details of First Assessment for Soft Skills are given below:  Course Code : STS202, STS322 Topic : Cover Letter Writing Date : 08 Feb 16 to 12 Feb 16 (Assessment will happen in the regular slots only) Venue : Respective classroom ",
-      "Posted on": "25/01/2016 17:20:42"
+      "Course": "CSE1002 - Problem Solving with Object Oriented Programming - LO",
+      "Message": "Good Afternoon Students, Practice problems 5 is scheduled and it will be available till 1st April 2016. - Vijayasherly",
+      "From": "VIJAYASHERLY V (SCOPE)",
+      "Posted on": "22/03/2016 14:17:35"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT, I HAVE RECEIVED A MAIL REGARDING UPLOADING OF DIGITAL ASSIGNMENT ONE. I FOUND IT IS BLOCK, IF IT IS NOT OPENED YOU CAN UPLOAD WHENEVER IT WILL OPENED. THE LAST DATE WILL BE EXTENDED ACCORDINGLY. YOU NEED SEND YOUR COPY TO ANY MAIL OR MY VIT MAIL. IT SHOULD BE UPLOADED THROUGH YOUR LOG IN ONLY. PL NOTE.",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "06/03/2016 17:23:17"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "REVIEW ONE WILL BE CONDUCTED ON FRIDAY, 2016 AS PER INSTRUCTED IN THE CLASS TODAY.  PL CHECK \"TOPIC OF DIGITAL ASSIGNMENT ONE\" IN YOUR INTRA NET LOG IN.",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "03/03/2016 17:13:46"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "REVIEW ONE WILL BE CONDUCTED ON WED MARCH 02, 2016. VENUE AND TIME WILL BE INFORM TOMORROW IN THE REGULAR CLASS. ALL GROUP MEMBERS ARE REQUESTED TO FOLLOW THIS SCHEDULE.",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "29/02/2016 13:22:31"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP TEN] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No while writing mail.  15BEC0754\tPOTTI MANHAR\t52\tX 15BEC0781\tALAPATI SAI KRISHNA VAMSY\t53\tX 15BEC0784\tGUNDU KRISHNA SRIHARSHA\t54\tX 15BEC0814\tNALLURI BHARADWAJ NAGA SAI\t55\tX 15BEC0847\tYADAMAKANTI SAI KRISHNA KUMAR\t56\tX 15BEC0874\tM RAJESH REDDY\t57\tX ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:28:35"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP NINE] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No while writing mail.  15BEC0624\tKUDUPUDI VENKATA SANTHOSHA SIVANI\t47\tIX 15BEC0687\tMULLAGIRI ELISHA ABHINAV\t48\tIX 15BEC0695\tKARASANI THARUN KUMAR REDDY\t49\tIX 15BEC0700\tPALADUGU LIKHITHA CHOWDARY\t50\tIX 15BEC0706\tBALA KRISHNA CHAITANYA MADDULA\t51\tIX ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:27:29"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP EIGHT] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No while writing mail.  15BEC0410\tISHAN MISHRA\t42\tVIII 15BEC0539\tBIKKA VIJAY\t43\tVIII 15BEC0566\tSWAPNIL JAIN\t44\tVIII 15BEC0593\tSUDARSANAM VEDAVYAS\t45\tVIII 15BEC0603\tNISHANTH SURESH NARAYANAN\t46\tVIII  ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:26:13"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP SEVEN] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No while writing mail.   15BEC0218\tGANGASANI SAI SANKEERTH\t37\tVII 15BEC0226\tVIREN BHARAT SUGANDH\t38\tVII 15BEC0250\tSAINIKHIL REDDY THOTA\t39\tVII 15BEC0251\tGOGIREDDY DINESH KUMAR REDDY\t40\tVII 15BEC0341\tRADHIKA GERA\t41\tVII ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:24:33"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP SIX] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No while writing mail.   15BEC0065\tPOTNURU BALAJI\t32\tVI 15BEC0070\tABHINAY VARMA PINNAMA RAJU\t33\tVI 15BEC0131\tGOLI SWAPAN MOHIT\t34\tVI 15BEC0191\tKANAPARTHY DHEERAJ REDDY\t35\tVI 15BEC0199\tKOTHAMASU RAMTEJA\t36\tVI ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:23:50"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP FIVE] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No while writing mail.   15BCE0926\tLOKHANDE AMEY AJAY\t21\tV 15BCE0963\tAAKASH SAXENA\t22\tV 15BCE2030\tAMAN CHAUDHARY\t24\tV 15BCE2039\tKUMAR UTSAV\t25\tV 15BEC0016\tGONGADA DOLANANDHA VENKATA SAI ABHINAV\t31\tV",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:23:04"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP FOUR] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No while writing mail.   15BCE0751\tMAYANK AGGARWAL\t16\tIV 15BCE0806\tROHIT GOYAL\t17\tIV 15BCE0817\tANUBHAV SHRESTHA\t18\tIV 15BCE0873\tSHREYANSH JAIN\t19\tIV 15BCE0901\tAAYUSH CHACHAN\t20\tIV ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:21:44"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP THREE] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No  while writing mail.  15BCE0532\tCHIRAG ARORA\t11\tIII 15BCE0570\tSHIVAM PARASHAR\t12\tIII 15BCE0571\tUJJWAL VERMA\t13\tIII 15BCE0711\tAMAN MANGAL\t14\tIII 15BCE0746\tARPAN SARKAR\t15\tIII ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:20:58"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- [GROUP TWO] FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No  while writing mail.  15BCE0307\tNILABH\t6\tII 15BCE0355\tRAGHAV MAHAJAN\t7\tII 15BCE0358\tSANCHIT GARG\t8\tII 15BCE0363\tAPOORV ABHISHEK\t9\tII 15BCE0435\tAYUSH CHATURVEDI\t10\tII ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:20:10"
+    },
+    {
+      "Course": "CHY1001 - Engineering Chemistry - ETH",
+      "Message": "DEAR STUDENT PL FIND YOUR GROUP FOR CAL PROJECT:- GROUP ONE FIRST MEMBER IS SUPPOSED TO SEND MAIL TO KNOW THEIR TOPIC TO (prbhagat1516calj@gmail.com). Pl mention this gr no, your Reg No  while writing mail. 15BCE0026\tBILLA ANUDEEP\t1\tI 15BCE0121\tLAKSHIT LUNAWAT\t2\tI 15BCE0181\tINAKOLLU TARUN SAI TEJA\t3\tI 15BCE0208\tP VISHAL\t4\tI 15BCE0272\tVARUN TIWARI\t5\tI ",
+      "From": "PUNDLIK RAMBHAU BHAGAT (SAS)",
+      "Posted on": "07/02/2016 19:18:49"
     }
   ],
-  "reg_no": "14BCE0104",
-  "semester": "WS"
+  "campus": "vellore",
+  "exam_schedule": {
+    "cat1": {
+      "HUM1021": {
+        "slot": "TB2",
+        "date": "22-Feb-2016",
+        "session": "EN",
+        "time": "06:00 PM - 07:30 PM",
+        "crTitle": "Ethics and Values",
+        "day": "MON"
+      },
+      "CHY1001": {
+        "slot": "D2",
+        "crTitle": "Engineering Chemistry",
+        "session": "AN",
+        "time": "02:00 PM - 03:30 PM",
+        "date": "24-Feb-2016",
+        "day": "WED"
+      },
+      "CSE1003": {
+        "slot": "B2",
+        "crTitle": "Digital Logic and Design",
+        "session": "AN",
+        "time": "02:00 PM - 03:30 PM",
+        "date": "22-Feb-2016",
+        "day": "MON"
+      },
+      "MAT2002": {
+        "slot": "A2+TA2",
+        "date": "21-Feb-2016",
+        "session": "AN",
+        "time": "02:00 PM - 03:30 PM",
+        "crTitle": "Applications of Differential and Difference Equations",
+        "day": "SUN"
+      },
+      "CSE2003": {
+        "slot": "G2",
+        "date": "27-Feb-2016",
+        "session": "AN",
+        "time": "02:00 PM - 03:30 PM",
+        "crTitle": "Data Structures and Algorithms",
+        "day": "SAT"
+      }
+    },
+    "cat2": {
+      "HUM1021": {
+        "slot": "TB2",
+        "date": "04-Apr-2016",
+        "session": "EN",
+        "time": "06:00 PM - 07:30 PM",
+        "crTitle": "Ethics and Values",
+        "day": "MON"
+      },
+      "CHY1001": {
+        "slot": "D2",
+        "date": "06-Apr-2016",
+        "session": "FN",
+        "time": "09:00 AM - 10:30 AM",
+        "crTitle": "Engineering Chemistry",
+        "day": "WED"
+      },
+      "CSE1003": {
+        "slot": "B2",
+        "date": "04-Apr-2016",
+        "session": "FN",
+        "time": "09:00 AM - 10:30 AM",
+        "crTitle": "Digital Logic and Design",
+        "day": "MON"
+      },
+      "MAT2002": {
+        "slot": "A2+TA2",
+        "date": "03-Apr-2016",
+        "session": "FN",
+        "time": "09:00 AM - 10:30 AM",
+        "crTitle": "Applications of Differential and Difference Equations",
+        "day": "SUN"
+      },
+      "CSE2003": {
+        "slot": "G2",
+        "date": "10-Apr-2016",
+        "session": "FN",
+        "time": "09:00 AM - 10:30 AM",
+        "crTitle": "Data Structures and Algorithms",
+        "day": "SUN"
+      }
+    },
+    "termend": {
+      "CSE1003": {
+        "slot": "B2",
+        "date": "12-May-2016",
+        "session": "FN",
+        "time": "09:00 AM - 12:00 PM",
+        "crTitle": "Digital Logic and Design",
+        "day": "THU"
+      },
+      "PHY1999": {
+        "slot": "TD2",
+        "date": "09-May-2016",
+        "session": "EN",
+        "time": "04:00 PM - 07:00 PM",
+        "crTitle": "Introduction to Innovative Projects",
+        "day": "MON"
+      },
+      "CHY1001": {
+        "slot": "D2",
+        "date": "18-May-2016",
+        "session": "FN",
+        "time": "09:00 AM - 12:00 PM",
+        "crTitle": "Engineering Chemistry",
+        "day": "WED"
+      },
+      "MAT2002": {
+        "slot": "A2+TA2",
+        "date": "11-May-2016",
+        "session": "FN",
+        "time": "09:00 AM - 12:00 PM",
+        "crTitle": "Applications of Differential and Difference Equations",
+        "day": "WED"
+      },
+      "HUM1021": {
+        "slot": "TB2",
+        "date": "12-May-2016",
+        "session": "EN",
+        "time": "04:00 PM - 07:00 PM",
+        "crTitle": "Ethics and Values",
+        "day": "THU"
+      },
+      "CSE2003": {
+        "slot": "G2",
+        "crTitle": "Data Structures and Algorithms",
+        "session": "FN",
+        "time": "09:00 AM - 12:00 PM",
+        "date": "24-May-2016",
+        "day": "TUE"
+      }
+    }
+  }
 }
